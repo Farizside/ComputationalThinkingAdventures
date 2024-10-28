@@ -3945,7 +3945,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d8b4539ab25e4f34ca8f621618bc4e27, type: 3}
+  m_Sprite: {fileID: -1127592692, guid: d8b4539ab25e4f34ca8f621618bc4e27, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4035,8 +4035,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cbdd18c824db8f4e8017a43008da217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onSprite: {fileID: 21300000, guid: d8b4539ab25e4f34ca8f621618bc4e27, type: 3}
-  _offSprite: {fileID: 21300000, guid: afdca350ac6b1164baf776fbfad84b13, type: 3}
+  _onSprite: {fileID: -1127592692, guid: d8b4539ab25e4f34ca8f621618bc4e27, type: 3}
+  _offSprite: {fileID: 2109237432, guid: afdca350ac6b1164baf776fbfad84b13, type: 3}
 --- !u!95 &1382378722
 Animator:
   serializedVersion: 5
