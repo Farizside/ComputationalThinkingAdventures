@@ -772,7 +772,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 1481071362a3d264a9f1f023a6c4128e, type: 3}
+      objectReference: {fileID: 1216597714, guid: 1481071362a3d264a9f1f023a6c4128e, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Pergi
@@ -1023,7 +1023,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: bb9b2bd441a5d994a8cd070f2e32ee93, type: 3}
+      objectReference: {fileID: 1948701906, guid: a247f4dfe7c276e4297cf8b24f579079, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Mulai
@@ -1095,7 +1095,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b2d90760eac1d3e4e8ab21dd6aa57cee, type: 3}
+  m_Sprite: {fileID: -1294572143, guid: b2d90760eac1d3e4e8ab21dd6aa57cee, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1365,7 +1365,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 180, y: 80}
+  m_CellSize: {x: 160, y: 80}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -1495,8 +1495,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -49.4657, y: -2.5511}
-  m_SizeDelta: {x: 196.9355, y: 58.2116}
+  m_AnchoredPosition: {x: -138.84424, y: -2.5511}
+  m_SizeDelta: {x: 221.216, y: 46.4483}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &325362257
 MonoBehaviour:
@@ -1664,7 +1664,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 531622ea5174adf44b8cd4ff0ab55c3f, type: 3}
+      objectReference: {fileID: -1280520354, guid: 531622ea5174adf44b8cd4ff0ab55c3f, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Tertinggal
@@ -1847,7 +1847,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: fe0f380f7e957bc4295c7184bdf630a8, type: 3}
+      objectReference: {fileID: 1057314594, guid: fe0f380f7e957bc4295c7184bdf630a8, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Kembali
@@ -1898,8 +1898,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -37.998974, y: 333.48438}
-  m_SizeDelta: {x: 185.1462, y: 74.6508}
+  m_AnchoredPosition: {x: -126.23372, y: 328.78345}
+  m_SizeDelta: {x: 137.4175, y: 63.0793}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419475365
 MonoBehaviour:
@@ -2151,7 +2151,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 180, y: 80}
+  m_CellSize: {x: 160, y: 80}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -2343,7 +2343,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 180, y: 80}
+  m_CellSize: {x: 160, y: 80}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -2451,7 +2451,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 08b4f00b51b247645b51695e161cc4f7, type: 3}
+      objectReference: {fileID: -1147718143, guid: 08b4f00b51b247645b51695e161cc4f7, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Selesai
@@ -2573,8 +2573,8 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 180, y: 80}
-  m_Spacing: {x: 10, y: 10}
+  m_CellSize: {x: 160, y: 80}
+  m_Spacing: {x: 20, y: 20}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!1 &650290357
@@ -3041,8 +3041,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47, y: 85.8}
-  m_SizeDelta: {x: 134.0851, y: 67}
+  m_AnchoredPosition: {x: -134.67209, y: 82.8}
+  m_SizeDelta: {x: 68.3132, y: 29.7457}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &698540223
 MonoBehaviour:
@@ -3392,7 +3392,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -39.9825}
+  m_SizeDelta: {x: -159.0407, y: -63.8026}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &846622953
 MonoBehaviour:
@@ -3414,7 +3414,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 88f1240b02a03044d86af9e59d64d586, type: 3}
+  m_Sprite: {fileID: 218250619, guid: 88f1240b02a03044d86af9e59d64d586, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3565,7 +3565,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 98c084d0bdc1a69449a6cf21fd75dc43, type: 3}
+      objectReference: {fileID: 1117976573, guid: 98c084d0bdc1a69449a6cf21fd75dc43, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Masuk Kelas
@@ -3678,7 +3678,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 180, y: 80}
+  m_CellSize: {x: 160, y: 80}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -3731,8 +3731,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 184.0797, y: 84.45412}
-  m_SizeDelta: {x: 196.7904, y: 57.5409}
+  m_AnchoredPosition: {x: 140.52464, y: 83.295975}
+  m_SizeDelta: {x: 221.9574, y: 46.6839}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1052141911
 MonoBehaviour:
@@ -3900,7 +3900,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 98238599d9d473c418be329b18703ed9, type: 3}
+      objectReference: {fileID: 508568959, guid: 98238599d9d473c418be329b18703ed9, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Hukuman
@@ -4215,7 +4215,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 45b41140ae7123840a4fe45b3666f1ba, type: 3}
+      objectReference: {fileID: 1967031072, guid: 45b41140ae7123840a4fe45b3666f1ba, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Berangkat
@@ -4321,7 +4321,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9234bdb5ca3d0464dbcb88f22ba80dfe, type: 3}
+      objectReference: {fileID: 1015771955, guid: 9234bdb5ca3d0464dbcb88f22ba80dfe, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Terlambat
@@ -4372,8 +4372,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -38.308132, y: 246.14041}
-  m_SizeDelta: {x: 199.7101, y: 57.1015}
+  m_AnchoredPosition: {x: -124.76492, y: 242.59439}
+  m_SizeDelta: {x: 221.9998, y: 46.632}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1429425625
 MonoBehaviour:
@@ -4486,8 +4486,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -55.502, y: -164}
-  m_SizeDelta: {x: 111, y: 64}
+  m_AnchoredPosition: {x: -143.7, y: -162.05}
+  m_SizeDelta: {x: 68.3132, y: 29.7457}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1458063136
 MonoBehaviour:
@@ -4677,8 +4677,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -56.483, y: -333.2}
-  m_SizeDelta: {x: 185.1, y: 72.3672}
+  m_AnchoredPosition: {x: -146.02353, y: -328.61377}
+  m_SizeDelta: {x: 142.7317, y: 63.1947}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1487392545
 MonoBehaviour:
@@ -4791,8 +4791,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -50.015, y: -252.1618}
-  m_SizeDelta: {x: 198.0349, y: 56.5912}
+  m_AnchoredPosition: {x: -138.84, y: -247.60995}
+  m_SizeDelta: {x: 221.21, y: 47.4875}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1495602665
 MonoBehaviour:
@@ -5094,7 +5094,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 1c9c36bc38e20ef44a36f559e96bda86, type: 3}
+      objectReference: {fileID: -1603966211, guid: 1c9c36bc38e20ef44a36f559e96bda86, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Sampai
@@ -5207,7 +5207,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 180, y: 80}
+  m_CellSize: {x: 160, y: 80}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -5322,7 +5322,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 180, y: 80}
+  m_CellSize: {x: 160, y: 80}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -5625,8 +5625,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -46.679, y: -79.867004}
-  m_SizeDelta: {x: 202.51, y: 58.1085}
+  m_AnchoredPosition: {x: -134.46623, y: -78.42737}
+  m_SizeDelta: {x: 221.61, y: 46.2714}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1761014067
 MonoBehaviour:
@@ -5776,7 +5776,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 180, y: 80}
+  m_CellSize: {x: 160, y: 80}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -5854,8 +5854,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -38.309, y: 173.99994}
-  m_SizeDelta: {x: 199.71, y: 55.7519}
+  m_AnchoredPosition: {x: -127.145424, y: 171.05548}
+  m_SizeDelta: {x: 221.9766, y: 46.739}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1778893745
 MonoBehaviour:
@@ -6150,7 +6150,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 180, y: 80}
+  m_CellSize: {x: 160, y: 80}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -6435,7 +6435,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 180, y: 80}
+  m_CellSize: {x: 160, y: 80}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -6488,8 +6488,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 179.80876, y: -162.04852}
-  m_SizeDelta: {x: 198.0349, y: 60.097}
+  m_AnchoredPosition: {x: 134.67107, y: -160.21637}
+  m_SizeDelta: {x: 222.3528, y: 46.4391}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1929189424
 MonoBehaviour:
@@ -6639,7 +6639,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 180, y: 80}
+  m_CellSize: {x: 160, y: 80}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -6990,7 +6990,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 180, y: 80}
+  m_CellSize: {x: 160, y: 80}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -7098,7 +7098,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 11904b804b1b45c429fd37610e0af2e5, type: 3}
+      objectReference: {fileID: -953647437, guid: 11904b804b1b45c429fd37610e0af2e5, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Persiapan

@@ -912,7 +912,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: bb9b2bd441a5d994a8cd070f2e32ee93, type: 3}
+      objectReference: {fileID: -1363730237, guid: bb9b2bd441a5d994a8cd070f2e32ee93, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Mulai
@@ -984,7 +984,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 083f67dd722984144ac6c05c944ded5d, type: 3}
+  m_Sprite: {fileID: 1413396856, guid: 083f67dd722984144ac6c05c944ded5d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1384,8 +1384,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.2561, y: -55.183838}
-  m_SizeDelta: {x: 181, y: 64}
+  m_AnchoredPosition: {x: -0.3652, y: -62.79367}
+  m_SizeDelta: {x: 179.7574, y: 60.7085}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &325362257
 MonoBehaviour:
@@ -1553,7 +1553,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0550d0484e58b4d49a6cff64b8aae004, type: 3}
+      objectReference: {fileID: 1300285696, guid: 0550d0484e58b4d49a6cff64b8aae004, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Pergi
@@ -1736,7 +1736,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 89287696d8d06d04aa192ff188cca73d, type: 3}
+      objectReference: {fileID: -1725019782, guid: 89287696d8d06d04aa192ff188cca73d, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Pengurangan Gaji
@@ -1787,8 +1787,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -183.96527, y: 264.432}
-  m_SizeDelta: {x: 215, y: 85}
+  m_AnchoredPosition: {x: -189.53107, y: 285.60645}
+  m_SizeDelta: {x: 157.3241, y: 85.4652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419475365
 MonoBehaviour:
@@ -2821,8 +2821,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -185.81001, y: -173}
-  m_SizeDelta: {x: 230, y: 67}
+  m_AnchoredPosition: {x: -193.74405, y: -191.2716}
+  m_SizeDelta: {x: 228.7619, y: 63.7945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &698540223
 MonoBehaviour:
@@ -3169,7 +3169,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -49.6826, y: -52.8243}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &846622953
 MonoBehaviour:
@@ -3191,7 +3191,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 88c42de855ca45d43b54ebf04d17ff38, type: 3}
+  m_Sprite: {fileID: 370857626, guid: 88c42de855ca45d43b54ebf04d17ff38, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3336,7 +3336,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: fa95e55cc720fb74a8235d8cdfec7a39, type: 3}
+      objectReference: {fileID: 674276197, guid: fa95e55cc720fb74a8235d8cdfec7a39, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Terlambat
@@ -3502,8 +3502,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -193.00012, y: -270.43716}
-  m_SizeDelta: {x: 181, y: 66}
+  m_AnchoredPosition: {x: -200.46924, y: -297.57605}
+  m_SizeDelta: {x: 157.1511, y: 49.461}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1052141911
 MonoBehaviour:
@@ -3877,6 +3877,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1780592922, guid: 5856b581a5b248241ab0efc70c2d6e0a, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Cari Alamat
@@ -3982,7 +3986,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 466b99b986bb14c4ea28057bde13ff8e, type: 3}
+      objectReference: {fileID: -835350827, guid: 466b99b986bb14c4ea28057bde13ff8e, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Hukuman
@@ -4033,8 +4037,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -183.54169, y: 162.6876}
-  m_SizeDelta: {x: 230, y: 67}
+  m_AnchoredPosition: {x: -191.56818, y: 173.96288}
+  m_SizeDelta: {x: 231.5288, y: 63.5601}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1429425625
 MonoBehaviour:
@@ -4147,8 +4151,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -183.96997, y: -55.184}
-  m_SizeDelta: {x: 111.0046, y: 64}
+  m_AnchoredPosition: {x: -190.54102, y: -62.4808}
+  m_SizeDelta: {x: 82.0921, y: 40.9199}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1458063136
 MonoBehaviour:
@@ -4527,7 +4531,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ac319e6c213c3274b86fad33e93d4b68, type: 3}
+      objectReference: {fileID: -1776723943, guid: ac319e6c213c3274b86fad33e93d4b68, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Selesai
@@ -5061,8 +5065,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 211, y: -55.184}
-  m_SizeDelta: {x: 181, y: 64}
+  m_AnchoredPosition: {x: 218.11963, y: -62.794}
+  m_SizeDelta: {x: 179.1014, y: 60.709}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1761014067
 MonoBehaviour:
@@ -5175,8 +5179,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -183.97, y: 65.5}
-  m_SizeDelta: {x: 230, y: 67}
+  m_AnchoredPosition: {x: -192.9183, y: 69.129395}
+  m_SizeDelta: {x: 230.4069, y: 62.4272}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1778893745
 MonoBehaviour:
@@ -6075,7 +6079,7 @@ PrefabInstance:
     - target: {fileID: 6796851044156712562, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ee8cd31960b86324aab4a3d844b34d38, type: 3}
+      objectReference: {fileID: -1760164075, guid: ee8cd31960b86324aab4a3d844b34d38, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
       value: Hadiah
