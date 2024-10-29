@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5e4bf2806edb3104fa1b5b1c1ee67b3b
+guid: a79dc64276415234fa4179bc4e3f77bb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,18 +95,40 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Informasi_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 5
+        width: 351
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732f3b3f66db67f47b0e21c2d14eee4b
+      internalID: 1410871931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e5d96490e4d69b849962eab1d1e3d19c
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Informasi_0: 1410871931
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
