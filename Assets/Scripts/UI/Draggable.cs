@@ -45,9 +45,6 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         _image.raycastTarget = true;
         isDuplicatedOnDrag = false;
         
-        Debug.Log(parentAfterDrag);
-        Debug.Log(transform.parent);
-        
         if (transform.parent == null)
         {
             Destroy(gameObject);
