@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,9 +7,11 @@ using UnityEngine.UI;
 public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     [HideInInspector] public Transform parentAfterDrag;
-    
+    [SerializeField] private bool isDuplicatedOnDrag = false;
+
     private Image _image;
-    
+    private GameObject _duplicateObject;
+
     private void Start()
     {
         _image = GetComponent<Image>();
@@ -18,7 +19,16 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        parentAfterDrag = transform.parent;
+        if (isDuplicatedOnDrag)
+        {
+            _duplicateObject = Instantiate(gameObject, transform.parent);
+            _duplicateObject.name = gameObject.name;
+        }
+        else
+        {
+            parentAfterDrag = transform.parent;
+        }
+
         transform.SetParent(transform.root);
         transform.SetAsLastSibling();
         _image.raycastTarget = false;
@@ -33,5 +43,14 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     {
         transform.SetParent(parentAfterDrag);
         _image.raycastTarget = true;
+        isDuplicatedOnDrag = false;
+        
+        Debug.Log(parentAfterDrag);
+        Debug.Log(transform.parent);
+        
+        if (transform.parent == null)
+        {
+            Destroy(gameObject);
+        }
     }
 }
