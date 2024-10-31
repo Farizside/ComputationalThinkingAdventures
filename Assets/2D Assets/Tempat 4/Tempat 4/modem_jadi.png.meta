@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b4a118bc3f5f9b49a18dcec94a9e4ff
+guid: 930559866cff5004db9c729421dbefc0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bank 1_0
+      name: modem_jadi_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 27
-        width: 942
-        height: 953
+        x: 11
+        y: 10
+        width: 977
+        height: 976
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84756fbda8e57164db7ee561f77ec3a1
-      internalID: 1351559844
+      spriteID: 1d1d56348b9c3e146a1ad758ab9e62c2
+      internalID: -1843612255
       vertices: []
       indices: 
       edges: []
@@ -120,7 +120,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 97c6c014a41ff584fa46dc417bf4460d
+    spriteID: 59fad38ad1d85ef4cac9a9c205704148
     internalID: 0
     vertices: []
     indices: 
@@ -128,7 +128,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bank 1_0: 1351559844
+      modem_jadi_0: -1843612255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
