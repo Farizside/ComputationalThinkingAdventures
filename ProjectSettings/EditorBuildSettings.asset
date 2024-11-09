@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: d14a7d8f2b057d442ba104ee49baff8e
   - enabled: 1
+    path: Assets/Scenes/Gameplay.unity
+    guid: ebfcc45c016bf1f4885c43d13d72dccd
+  - enabled: 1
     path: Assets/Scenes/LevelSelection.unity
     guid: 493e0e8d2bb65aa4692de936d272b811
   - enabled: 1
@@ -56,4 +59,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Soal/4.4.unity
     guid: 47fff5bf9924ca443a7e9e681fca7ab5
+  - enabled: 1
+    path: Assets/Scenes/Soal/Eval.1.unity
+    guid: ee10d27a06933274dace62ef63518f5b
+  - enabled: 1
+    path: Assets/Scenes/Soal/Eval.2.unity
+    guid: eef6167a2843d2b4ea06f8c565b3bf76
+  - enabled: 1
+    path: Assets/Scenes/Soal/Eval.3.unity
+    guid: 5f064f7d86d2b6a43aa511dfdc02469b
+  - enabled: 1
+    path: Assets/Scenes/Soal/Eval.4.unity
+    guid: b84a887c00c4eff4aadd20b2264761b1
+  - enabled: 1
+    path: Assets/Scenes/Soal/Eval.5.unity
+    guid: c08649196ec07864dacbb2399b8b906d
   m_configObjects: {}
