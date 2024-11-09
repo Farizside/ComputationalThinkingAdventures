@@ -604,12 +604,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Selamat kamu telah menyelesaikan permsalahan yang disajikan.  Dari ke empat
-    permasalahan tadi, kamu telah menyelesaikan permasalahan tersebut dengan teknik
-    dekomposisi dalam computational thinking. Karena kamu mampu mengientifikasi informasi
-    yang telah disediakan yaitu berupa soal cerita. Kemudian kamum mampi menganalisis
-    semua informasi yang didapat untuk menyelesaikan permasalahan dan menjadi suatu
-    jawaban yang pasti.
+  m_text: "Kamu berhasil membantu ani  untuk memodelkan topologi jaringan dan menetukan
+    perangkat jaringan yang sesuai. Topologi yang digunakan pada permasalahan ini
+    adalah topologi star.\r\nPerangkat yang kamu pilih itu merupakan perangkat jaringan
+    computer yang memiliki fungsi yang berbeda. \r\n\nSwitch berfungsi untuk menghubungkan
+    perangkat menggunakan kabel seperti menghubungkan computer pada port switch yang
+    tersedia.\r\n\nPada  permasalahan ini Modem berfungsi penghubung antara ISP dan
+    perangkat elektronik yang ada di rumah pelanggan (rumah pelanggan). Selain itu
+    modem berfungsi untuk Modem mengubah sinyal digital dari perangkat di jaringan
+    lokal menjadi sinyal analog yang dapat ditransmisikan melalui kabel telepon,
+    kabel coaxial, atau serat optik, dan sebaliknya.\r\n\nPada permasalahan ini komputer
+    memfasilitasi komunikasi melalui email, aplikasi pesan instan, dan platform media
+    sosial, memungkinkan orang terhubung secara global. \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -636,7 +642,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 31.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

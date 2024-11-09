@@ -463,8 +463,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015735626, y: -14}
-  m_SizeDelta: {x: 1696.8181, y: 127.1131}
+  m_AnchoredPosition: {x: -0.000015735626, y: 4.4484}
+  m_SizeDelta: {x: 1696.8181, y: 164.0099}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &63665013
 MonoBehaviour:
@@ -519,7 +519,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.2
+  m_fontSize: 47.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -677,12 +677,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Selamat kamu telah menyelesaikan permsalahan yang disajikan.  Dari ke empat
-    permasalahan tadi, kamu telah menyelesaikan permasalahan tersebut dengan teknik
-    dekomposisi dalam computational thinking. Karena kamu mampu mengientifikasi informasi
-    yang telah disediakan yaitu berupa soal cerita. Kemudian kamum mampi menganalisis
-    semua informasi yang didapat untuk menyelesaikan permasalahan dan menjadi suatu
-    jawaban yang pasti.
+  m_text: "Selamat kamu berhasil mecocokan jenis jaringan komputer sesuai gambar
+    yang disediakan. \r\n\nLAN adalah jenis jaringan computer yang cakupannya area
+    kecil atau menengah. Jangkauan jaringan LAN adalah 1 km saja. Contohnya penggunaan
+    jaringan LAN seperti jaringan di lingkungan sekolah yang terhubung pada masing-masing
+    ruangan. \r\n\nMAN adalah jenis jaringan computer yang cakupan areanya lebih
+    besar daripada LAN. Jangkauan MAN lebih luas yaitu 50 km \u2013 100 km. Contohnya
+    jaringan Perusahaan yang memiliki cabang di berbagai kota, jaringan BANK yang
+    tersebar diberbagai kota\r\n\nWAN adalah jaringan computer yang cakupannya cukup
+    luas bahkan bisa mencakup negara ataupun benua. Jangkauan jaringannya adalah 
+    1.000 KM ataupun lebih. Contohnya Lembaga pemerintahan indonesia yang bisa berkomunikasi
+    dengan Lembaga pemerintahan di negara lain. \r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -709,7 +714,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 33.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1747,7 +1752,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 339.6311}
+  m_AnchoredPosition: {x: 0, y: 267.41595}
   m_SizeDelta: {x: -136.1608, y: -830.3322}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419967649
@@ -2710,7 +2715,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00036621094, y: -74.78485}
+  m_AnchoredPosition: {x: 0.00036621094, y: -147}
   m_SizeDelta: {x: -136.16, y: -597.2003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978460633

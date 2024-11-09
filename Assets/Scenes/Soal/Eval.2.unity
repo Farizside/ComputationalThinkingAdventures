@@ -572,12 +572,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Andi merupakan teknisi jaringan pemula yang ditugaskan untuk mendesain
-    jaringan di sekolah. Andi ditugaskan untuk mendesain 3 Lab. Masing-masing lab
-    secara berurutan menggunakan ip addres kelas A, ip addres B, dan IP kelas C. 
-    Tetapi andi belum memahami jenis dari kelas ip addres itu sendiri. Sehingga andi
-    kesulitan untuk mendesain jaringan. Ayo bantu andi untuk memetakan ip addres
-    yang tepat untuk masing-masing LAB.
+  m_text: Susunlah ip addres yang tersedia berdasarkan jenis kelasnya
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -604,12 +599,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.3
+  m_fontSize: 50
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 50
   m_fontStyle: 1
   m_HorizontalAlignment: 8
   m_VerticalAlignment: 512
@@ -688,8 +683,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000027657, y: -0.0000038147}
-  m_SizeDelta: {x: 1420.5363, y: 545.2538}
+  m_AnchoredPosition: {x: 0.000027657, y: 203.49792}
+  m_SizeDelta: {x: 1420.5363, y: 138.258}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &118629859
 MonoBehaviour:
@@ -711,12 +706,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Selamat kamu telah menyelesaikan permsalahan yang disajikan.  Dari ke empat
-    permasalahan tadi, kamu telah menyelesaikan permasalahan tersebut dengan teknik
-    dekomposisi dalam computational thinking. Karena kamu mampu mengientifikasi informasi
-    yang telah disediakan yaitu berupa soal cerita. Kemudian kamum mampi menganalisis
-    semua informasi yang didapat untuk menyelesaikan permasalahan dan menjadi suatu
-    jawaban yang pasti.
+  m_text: 'Kamu berhasil mencocokan ip yang tersedia pada masing-masing jenis kelasnya.
+    IP yang disajikan pada permasalahan ini adalah IP kelas A, B dan C. Dapat dilihat
+    tabel kelas IP dibawah ini. Kamu baru saja menyortir IP yang tersedia berdasarkan
+    Range IP dari masing-masing kelas. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -743,7 +736,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 33.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1047,6 +1040,7 @@ RectTransform:
   - {fileID: 1502537487}
   - {fileID: 118629858}
   - {fileID: 1813124396}
+  - {fileID: 869548313}
   m_Father: {fileID: 1741623474}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1872,7 +1866,7 @@ PrefabInstance:
       objectReference: {fileID: 252951519, guid: 37be9bc43748a244288e7fdf38b22b75, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
-      value: 172.20
+      value: b
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2033,7 +2027,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.994812, y: 280.6604}
+  m_AnchoredPosition: {x: 3.996521, y: 267.69}
   m_SizeDelta: {x: -84.2531, y: -811.4608}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419967649
@@ -2172,7 +2166,7 @@ PrefabInstance:
       objectReference: {fileID: -1153009285, guid: 3c89b082385a9bb499bed8df1771cef2, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
-      value: 192.168
+      value: c
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2550,7 +2544,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -748765179, guid: 512e8dc1a9e2e3843a626595837f3922, type: 3}
+  m_Sprite: {fileID: -88490906, guid: 7e4f5bed52f70384fa959666178295b3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2739,7 +2733,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2092431859, guid: eb5054801d228b949b05f29663024d9a, type: 3}
+  m_Sprite: {fileID: -210034409, guid: 19046d95ae7a4b3409de221205580ea3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3626,15 +3620,15 @@ MonoBehaviour:
   - {fileID: 1061674727}
   - {fileID: 551795470}
   _keyAnswers:
-  - 10.1
-  - 100.10
-  - 10.10
-  - 171.16
-  - 170.20
-  - 172.20
-  - 192.164
-  - 195.164
-  - 192.168
+  - a
+  - a
+  - a
+  - b
+  - b
+  - b
+  - c
+  - c
+  - c
   _answers: []
   _isEssay: 0
   _essayAnswers: []
@@ -3758,6 +3752,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 862671024}
+  m_CullTransparentMesh: 1
+--- !u!1 &869548312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 869548313}
+  - component: {fileID: 869548315}
+  - component: {fileID: 869548314}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &869548313
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869548312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 198130807}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -94.190796}
+  m_SizeDelta: {x: 1420.5, y: 435.8109}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &869548314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869548312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 442565646, guid: 388992fafe459d04584ae8e5e95181a8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &869548315
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869548312}
   m_CullTransparentMesh: 1
 --- !u!1 &920907419
 GameObject:
@@ -3972,7 +4041,7 @@ PrefabInstance:
       objectReference: {fileID: -968611098, guid: 18be640dd12e7374a8f03440504cf2a0, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
-      value: 170.20
+      value: b
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4634,7 +4703,7 @@ PrefabInstance:
       objectReference: {fileID: -463394642, guid: 05cb9ea49e170c04685009164e8f060a, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
-      value: 10.1
+      value: a
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5185,7 +5254,7 @@ PrefabInstance:
       objectReference: {fileID: -748075602, guid: 14ee3c0437534c84eb13c53ecec54e08, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
-      value: 192.164
+      value: c
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5410,7 +5479,7 @@ PrefabInstance:
       objectReference: {fileID: 568842126, guid: 42c3f7658898476429e1b6b5c92ac6e9, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
-      value: 100.10
+      value: a
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6006,7 +6075,7 @@ PrefabInstance:
       objectReference: {fileID: -904382071, guid: 14b35f396478fea4891b280eccd07dad, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
-      value: 171.16
+      value: b
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6340,7 +6409,7 @@ PrefabInstance:
       objectReference: {fileID: 1992363211, guid: 175f0fe4e9fe8dc4e97ab58db490f881, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
-      value: 195.164
+      value: c
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6962,7 +7031,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1066114420, guid: 500a00fb35b300a48ba46a74bbbf2623, type: 3}
+  m_Sprite: {fileID: -1570302233, guid: 0ae5a2a92880af64a8b8fdfcdcd3c1fd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7382,7 +7451,7 @@ PrefabInstance:
       objectReference: {fileID: 528130352, guid: 125f8dcc21b96a24c83bdfab031c5081, type: 3}
     - target: {fileID: 8815375261869758078, guid: 96df7f2d21498a1498d6502a34fb9546, type: 3}
       propertyPath: m_Name
-      value: 10.10
+      value: a
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

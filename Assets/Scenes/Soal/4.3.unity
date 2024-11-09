@@ -617,12 +617,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Selamat kamu telah menyelesaikan permsalahan yang disajikan.  Dari ke empat
-    permasalahan tadi, kamu telah menyelesaikan permasalahan tersebut dengan teknik
-    dekomposisi dalam computational thinking. Karena kamu mampu mengientifikasi informasi
-    yang telah disediakan yaitu berupa soal cerita. Kemudian kamum mampi menganalisis
-    semua informasi yang didapat untuk menyelesaikan permasalahan dan menjadi suatu
-    jawaban yang pasti.
+  m_text: "Kamu telah menetukan topologi jaringan yang dibutuhkan untuk menjawab
+    permasalahan diatas. Karena kamu bisa menggunakan topologi bus untuk jaringan
+    di \"Kantor Studio Kreatif\" dengan 5 komputer. Dalam topologi bus, semua komputer
+    terhubung ke satu kabel utama dan data dikirim melalui kabel tersebut. \r\n\nUntuk
+    lingkungan dengan sedikit komputer dan kebutuhan sederhana, topologi bus dapat
+    menjadi pilihan yang praktis.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1263,7 +1263,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 252.79504}
+  m_AnchoredPosition: {x: 0, y: 183}
   m_SizeDelta: {x: -136.1608, y: -656.6601}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419967649
@@ -2337,7 +2337,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -159}
+  m_AnchoredPosition: {x: 0, y: -228.79504}
   m_SizeDelta: {x: 537.8911, y: 100.8546}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1396461945

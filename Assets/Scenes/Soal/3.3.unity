@@ -457,8 +457,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015735626, y: -14}
-  m_SizeDelta: {x: 1696.8181, y: 372.5119}
+  m_AnchoredPosition: {x: -0.000015735626, y: 10.4865}
+  m_SizeDelta: {x: 1696.8181, y: 421.4849}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &63665013
 MonoBehaviour:
@@ -510,7 +510,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54.2
+  m_fontSize: 55.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -617,10 +617,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Selamat kamu berhasil menyelesaikan permasalahan andi dengan teknik dekomposisi.
-    Karena untuk membantu andi, kamu harus memecah masalah besar (menghubungkan semua
-    perangkat) untuk menjadi bagian-bagian lebih kecil, seperti menentukan jenis
-    perangkat yang perlu dibeli dan memahami kebutuhan jaringan.
+  m_text: "Perangkat yang dibutuhkan untuk permasalahan diatas adalah Acces Point.
+    Karena acces point berfungsi sebagai titik akes untuk perangkat nirkabel agar
+    dapat terhubung pada jaringan. Smart TV, lampu pintar dan kamera keamanan memerlukan
+    jaringan untuk bisa berfungsi dengan baik. Jika semua perangkat tersebut ingin
+    terhubung tanpa kabel maka diperlukan acces point\r\n\nKemudian kamu berhasil
+    menyelesaikan permasalahan andi dengan teknik dekomposisi. Karena untuk membantu
+    andi, kamu harus memecah masalah besar (menghubungkan semua perangkat) untuk
+    menjadi bagian-bagian lebih kecil, seperti menentukan jenis perangkat yang perlu
+    dibeli dan memahami kebutuhan jaringan.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -647,7 +652,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 40.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1260,7 +1265,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 202.26117}
+  m_AnchoredPosition: {x: 0, y: 145.12115}
   m_SizeDelta: {x: -136.1608, y: -555.5923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419967649
@@ -2334,7 +2339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -130.86}
+  m_AnchoredPosition: {x: 0, y: -188}
   m_SizeDelta: {x: 537.8911, y: 100.8546}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1396461945
