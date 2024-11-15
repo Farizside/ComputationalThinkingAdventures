@@ -1325,6 +1325,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!1 &419967647
 GameObject:
@@ -1530,6 +1533,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &513819574
 MonoBehaviour:
@@ -2480,6 +2486,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &824141127
 MonoBehaviour:
@@ -2717,6 +2726,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &869704664
 MonoBehaviour:
@@ -3680,6 +3692,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1573850175
 MonoBehaviour:
@@ -3857,6 +3872,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &1577334241
 GameObject:
@@ -3909,6 +3927,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1577334244
 MonoBehaviour:
@@ -4076,7 +4097,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: LevelSelection
+          m_StringArgument: Gameplay
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1605844210
@@ -4231,6 +4252,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &1741623470
 GameObject:
@@ -4395,6 +4419,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1756982115
 MonoBehaviour:
@@ -4811,6 +4838,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1915812406
 MonoBehaviour:
@@ -5338,6 +5368,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1001 &7961712382531490540
 PrefabInstance:

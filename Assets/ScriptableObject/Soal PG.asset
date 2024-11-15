@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bb9e058089022540b87f562479cbfa0, type: 3}
+  m_Name: Soal PG
+  m_EditorClassIdentifier: 
+  _Soals:
+  - text: Sebuah Jaringan dibuat dengan rancangan yang sangat matang, Jaringan tersebut
+      membutuhkan topologi yang fleksibel dalam pengembangannya topologi yang tepat
+      adalah
+    jawaban:
+    - text: 'Bus '
+      isTrue: 0
+    - text: Ring
+      isTrue: 0
+    - text: Star
+      isTrue: 1
+    - text: Mesh
+      isTrue: 0
+    - text: Tree
+      isTrue: 0
+  - text: Kabel yang digunakan pada topologi star yang digunakan untuk menghubungkan
+      pc ke switch adalah (TS)
+    jawaban:
+    - text: Coaxial
+      isTrue: 0
+    - text: UTP
+      isTrue: 1
+    - text: Fiber Optic
+      isTrue: 0
+    - text: RJ 45
+      isTrue: 0
+    - text: RJ 11
+      isTrue: 0
+  - text: Pada jaringan komputer dengan network lebih dari satu, maka dibutuhkan
+      perangkat
+    jawaban:
+    - text: Router
+      isTrue: 1
+    - text: Access Point
+      isTrue: 0
+    - text: Switch
+      isTrue: 0
+    - text: Modem
+      isTrue: 0
+    - text: Bridge
+      isTrue: 0
+  - text: Sebuah kantor terdiri dari 2 buah departemen yang terpisah oleh sebuah
+      gedung yang terdiri  dari 10 klien pada gedung A dan 22 klien pada gedung B.
+      Peralatan apa saja yang harus kita siapkan untuk menyambungkan seluruh klien
+      pada perusahaan tersebut ?
+    jawaban:
+    - text: Wireless PTP (Access point sebanyak 2 buah), switch 24 port 1 buah dan
+        switch 16 port 1 buah, kabel utp.
+      isTrue: 1
+    - text: Switch 8 port sebanyak 2 buah, kabel utp.
+      isTrue: 0
+    - text: Radio wireless, switch 16 port 2 buah.
+      isTrue: 0
+    - text: Radio wireless, kabel utp.
+      isTrue: 0
+    - text: Access point sebanyak 2 buah
+      isTrue: 0
+  - text: "Suatu komputer A dengan nomor IP : 192.168.10.2 dan Subnet Mask : 255.255.255.224
+      agar dapat berkomunikasi dengan komputer B dalam satu switch, maka konfigurasi
+      IP pada  komputer B adalah \u2026"
+    jawaban:
+    - text: Nomor IP Address 192.168.10.10 dan Subnet Mask 255.255.255.224
+      isTrue: 1
+    - text: Nomor IP Address 192.168.10.40 dan Subnet Mask 255.255.255.220
+      isTrue: 0
+    - text: Nomor IP Address 192.168.10.80 dan Subnet Mask 255.255.255.224
+      isTrue: 0
+    - text: Nomor IP Address 192.168.10.40 dan Subnet Mask 255.255.255.248
+      isTrue: 0
+    - text: Nomor IP Address 192.168.10.80 dan Subnet Mask 255.255.255.248
+      isTrue: 0
+  - text: "Pada sebuah kantor kecamatan Jabar Masagi terdapat 20 unit komputer client,
+      1 unit server, 2 dus kabel UTP, 1 unit switch 24 port, 1 unit printer. Mereka
+      akan melaksanakan ujian berbasis komputer. Dengan aturan tiap client akan terhubung
+      ke server melalui switch. Jika anda ditugaskan sebagai teknisi jaringan, urutan
+      pekerjaan yang akan dilakukan dari awal sampai akhir adalah \u2026."
+    jawaban:
+    - text: Membuat denah topologi, mengumpulkan kebutuhan teknis pengguna, memasang
+        peralatan, melakukan konfigurasi peralatan jaringan, menguji konektifitas
+        jaringan.
+      isTrue: 0
+    - text: Mengumpulkan kebutuhan teknis pengguna, membuat denah topologi, memasang
+        peralatan, melakukan konfigurasi peralatan jaringan, menguji konektifitas
+        jaringan.
+      isTrue: 1
+    - text: Membuat denah topologi, mengumpulkan kebutuhan teknis pengguna, melakukan
+        konfigurasi peralatan jaringan, memasang peralatan, menguji konektifitas
+        jaringan.
+      isTrue: 0
+    - text: Membuat denah topologi, mengumpulkan kebutuhan teknis pengguna, menguji
+        konektifitas jaringan, memasang peralatan, melakukan konfigurasi peralatan
+        jaringan.
+      isTrue: 0
+    - text: Mengumpulkan kebutuhan teknis pengguna, memasang peralatan, membuat denah
+        topologi, melakukan konfigurasi peralatan jaringan, menguji konektifitas
+        jaringan.
+      isTrue: 0
+  - text: 'Sebuah Kantor Perusahaan Usaha SMK Baleendah terdiri dari 3 Divisi yaitu
+      : Keuangan, Administrasi dan Teknik. Divisi Keuangan terdapat 5 PC All in One
+      yang merupakan 1 ruangan dengan divisi Administrasi yang menggunakan 8 buah
+      Laptop. Divisi Teknik mempunyai 21 pegawai yang semuanya memakai PC Desktop.
+      Berdasarkan jumlah node jaringan pada perusahaan Usaha SMK Baleendah maka diajurkan
+      untuk memakai switch dengan jumlah minimal port ? (TRS)'
+    jawaban:
+    - text: 34 port
+      isTrue: 0
+    - text: 24 port
+      isTrue: 0
+    - text: 28 port
+      isTrue: 0
+    - text: 48 port
+      isTrue: 1
+    - text: 16 port
+      isTrue: 0
+  - text: Jika anda sebagai network administrator akan memasang manageable switch
+      untuk  menghubungkan dua buah jaringan LAN  dengan jumlah client tiap jaringan
+      adalah 10 client. Maka manageable switch dengan jumlah port berapakah yang
+      akan di pilih berdasarkan teknologi terkini?
+    jawaban:
+    - text: 8 port
+      isTrue: 0
+    - text: 16 port
+      isTrue: 0
+    - text: 24 port
+      isTrue: 1
+    - text: 48 port
+      isTrue: 0
+    - text: 50 port
+      isTrue: 0
+  - text: Lab A menggunakan switch 8 port yang melayani 6 klien, kemudian lab A mendapatkan
+      penambahan klien sebanyak 4 buah. Maka langkah yang harus dilakukan yang paling
+      tepat adalah ..
+    jawaban:
+    - text: 'Memasang perangkat router '
+      isTrue: 0
+    - text: Melakukan penggantian switch 48 port
+      isTrue: 0
+    - text: Melakukan penggantian switch 24 port
+      isTrue: 0
+    - text: Melakukan penggantian switch dengan jumlah port minimal 16
+      isTrue: 1
+    - text: Memasang 2 buah switch untuk penambahan
+      isTrue: 0
+  - text: "Ada 2 buah jaringan antara lab RPL , TKJ , area hotspot dan jaringan Staf 
+      yang berbeda network. Agar semua jaringan tersebut dapat saling terkoneksi
+      dan bertukar data, maka dibutuhkan sebuah perangkat\u2026"
+    jawaban:
+    - text: Router
+      isTrue: 1
+    - text: Bridge
+      isTrue: 0
+    - text: Switch
+      isTrue: 0
+    - text: Hub
+      isTrue: 0
+    - text: Access Point
+      isTrue: 0

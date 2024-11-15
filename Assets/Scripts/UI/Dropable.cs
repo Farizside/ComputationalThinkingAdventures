@@ -1,12 +1,18 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class Dropable : MonoBehaviour, IDropHandler
 {
+    public bool isCable;
+
+    [CanBeNull] public Sprite cross;
+    [CanBeNull] public Sprite straight;
+    
     public Type type;
     public enum Type
     {
@@ -34,7 +40,26 @@ public class Dropable : MonoBehaviour, IDropHandler
             GameObject dropped = eventData.pointerDrag;
             Draggable draggableObject = dropped.GetComponent<Draggable>();
             
-            draggableObject.parentAfterDrag = transform;
+            if (isCable)
+            {
+                gameObject.GetComponent<Image>().color = new Color(255, 255, 255, 255);
+                if (draggableObject.name == "Kabel Cross")
+                {
+                    gameObject.GetComponent<Image>().sprite = cross;
+                    draggableObject.parentAfterDrag = transform;
+                    dropped.GetComponent<Image>().enabled = false;
+                }else if (draggableObject.name == "Kabel Straight")
+                {
+                    gameObject.GetComponent<Image>().sprite = straight;
+                    draggableObject.parentAfterDrag = transform;
+                    dropped.GetComponent<Image>().enabled = false;
+                }
+            }
+            else
+            {
+                if (draggableObject.name == "Kabel Cross" || draggableObject.name == "Kabel Straight" ) return;
+                draggableObject.parentAfterDrag = transform;
+            }
         }
     }
 }

@@ -45,8 +45,15 @@ public class SoalManager : MonoBehaviour
             }
             catch (Exception e)
             {
-                _answers.Add("null");
-                nullCount--;
+                if (!_slot.isCable)
+                {
+                    _answers.Add("null");
+                    nullCount--;
+                }
+                else
+                {
+                    _answers.Add("");
+                }
             }
         }
 
