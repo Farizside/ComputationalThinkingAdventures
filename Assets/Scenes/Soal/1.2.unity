@@ -1381,6 +1381,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &309548529
 GameObject:
@@ -1510,6 +1513,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &325362258
 MonoBehaviour:
@@ -1889,16 +1895,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419475363}
-  m_LocalRotation: {x: -0, y: -0, z: 0.37530226, w: -0.9269025}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 846622952}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -44.086}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 73, y: 194}
+  m_AnchoredPosition: {x: -124.76, y: 328.7}
   m_SizeDelta: {x: 137.4175, y: 63.0793}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419475365
@@ -1975,6 +1981,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!1 &419967647
 GameObject:
@@ -2167,6 +2176,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &463235453
 GameObject:
@@ -2359,6 +2371,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1001 &612638089
 PrefabInstance:
@@ -3056,6 +3071,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &698540224
 MonoBehaviour:
@@ -3697,6 +3715,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &1052141909
 GameObject:
@@ -3749,6 +3770,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1052141912
 MonoBehaviour:
@@ -4390,6 +4414,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1429425626
 MonoBehaviour:
@@ -4504,6 +4531,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1458063137
 MonoBehaviour:
@@ -4695,6 +4725,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1487392546
 MonoBehaviour:
@@ -4809,6 +4842,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1495602666
 MonoBehaviour:
@@ -5226,6 +5262,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &1636822938
 GameObject:
@@ -5341,6 +5380,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &1741623470
 GameObject:
@@ -5643,6 +5685,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1761014068
 MonoBehaviour:
@@ -5758,6 +5803,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!114 &1777251718
 MonoBehaviour:
@@ -5872,6 +5920,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1778893746
 MonoBehaviour:
@@ -6132,6 +6183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!114 &1837270373
 MonoBehaviour:
@@ -6454,6 +6508,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &1929189422
 GameObject:
@@ -6506,6 +6563,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1929189425
 MonoBehaviour:
@@ -6621,6 +6681,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!114 &1940794903
 MonoBehaviour:
@@ -7009,6 +7072,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1001 &7961712382531490540
 PrefabInstance:

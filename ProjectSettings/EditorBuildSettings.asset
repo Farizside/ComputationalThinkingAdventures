@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Gameplay.unity
     guid: ebfcc45c016bf1f4885c43d13d72dccd
   - enabled: 1
-    path: Assets/Scenes/LevelSelection.unity
-    guid: 493e0e8d2bb65aa4692de936d272b811
-  - enabled: 1
     path: Assets/Scenes/Soal/1.1.unity
     guid: 4fb06eeb2ab25ac4ca73f64240b88c5e
   - enabled: 1
@@ -48,6 +45,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Soal/2.4.unity
     guid: 809ffe261c1fcc64db56e208b4bd75fd
   - enabled: 1
+    path: Assets/Scenes/Soal/3.1.unity
+    guid: 974a34425d36ed045b49e5ac461bf8c2
+  - enabled: 1
+    path: Assets/Scenes/Soal/3.2.unity
+    guid: 8db73fa5575fdc04ebf00e0093785b28
+  - enabled: 1
+    path: Assets/Scenes/Soal/3.3.unity
+    guid: d22e1a31fd274db438de02910974dcbd
+  - enabled: 1
+    path: Assets/Scenes/Soal/3.4.unity
+    guid: 72576d162e124624facec56ea17ac48a
+  - enabled: 1
     path: Assets/Scenes/Soal/4.1.unity
     guid: 393876eb3d5680e4eb9783648be651f2
   - enabled: 1
@@ -75,6 +84,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Soal/5.5.unity
     guid: c08649196ec07864dacbb2399b8b906d
   - enabled: 1
+    path: Assets/Scenes/Soal/Evaluasi.unity
+    guid: 65ec7888976c7a64cba98a4f23f801d1
+  - enabled: 1
     path: Assets/Scenes/Video/Video.1.unity
     guid: e443d36d1ec876d49bbe291c1e00f7a1
+  - enabled: 1
+    path: Assets/Scenes/Video/Video.2.unity
+    guid: 9be52f27762c175438d92432089b5a9d
+  - enabled: 1
+    path: Assets/Scenes/Video/Video.3.unity
+    guid: 958dc42286345ea44b0091e1e632e244
+  - enabled: 1
+    path: Assets/Scenes/Video/Video.4.unity
+    guid: 5f047001ed2ba52449c32f02aad02fa3
   m_configObjects: {}

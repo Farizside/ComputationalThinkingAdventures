@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8d18484907b364d8570a9b7a837200, type: 3}
+  m_Name: Story
+  m_EditorClassIdentifier: 
+  curStage: 0
+  stages:
+  - isStarted: 0
+    isCompleted: 0
+    onStartDialog: Sebelum kamu mencari medali jaringan pada tempat pertama ini.
+      Pak guru akan memberikan video pembelajaran terlebih dahulu. Supaya kamu mempunyai
+      pengetahuan untuk menyelesaikan permasalahan. Siap untuk memperhatikan ??
+    onProgressDialog: Ayo kerjakan soal yang ada pada ruangan 1
+    onCompleteDialog: Selamat kamu telah selesai mengerjakan soal 1. Sebagai hadiahnya
+      bapak akan memberikan hadiah yaitu medali jaringan 1. Kumpulkan ke 5 medali
+      untuk melakukan evaluasi
+  - isStarted: 0
+    isCompleted: 0
+    onStartDialog: Sebelum kamu mencari medali jaringan yang kedua. Pak guru akan
+      memberikan video pembelajaran terlebih dahulu. Supaya kamu mempunyai pengetahuan
+      untuk menyelesaikan permasalahan. Siap untuk memperhatikan ??
+    onProgressDialog: Ayo kerjakan soal yang ada pada ruangan 2
+    onCompleteDialog: Selamat kamu telah selesai mengerjakan soal 2. Sebagai hadiahnya
+      bapak akan memberikan hadiah yaitu medali jaringan. Kamu perlu mengumpulkan
+      3 buah lagi
+  - isStarted: 0
+    isCompleted: 0
+    onStartDialog: Sebelum kamu mencari medali jaringan yang ketiga. Pak guru akan
+      memberikan video pembelajaran terlebih dahulu. Supaya kamu mempunyai pengetahuan
+      untuk menyelesaikan permasalahan. Siap untuk memperhatikan ??
+    onProgressDialog: Ayo kerjakan soal yang ada pada ruangan 3
+    onCompleteDialog: Selamat kamu telah selesai mengerjakan soal 3. Kamu berhak
+      mendapatkan medali jaringan ke 3
+  - isStarted: 0
+    isCompleted: 0
+    onStartDialog: Ayo kerjakan soal yang ada pada ruang ke 4 untuk mendapatkan medali
+      jaringan ke 4
+    onProgressDialog: Ayo kerjakan soal yang ada pada ruang ke 4 untuk mendapatkan
+      medali jaringan ke 4
+    onCompleteDialog: Selamat kamu telah selesai mengerjakan soal 4. Terimalah medali
+      jaringan ke 4 ini. Kamu hanya perlu mendapatkannya satu lagi.
+  - isStarted: 0
+    isCompleted: 0
+    onStartDialog: Sebelum kamu mencari medali jaringan yang terakhir. Pak guru akan
+      memberikan video pembelajaran terlebih dahulu. Supaya kamu mempunyai pengetahuan
+      untuk menyelesaikan permasalahan. Siap untuk memperhatikan ??
+    onProgressDialog: Ayo kerjakan soal terakhir yang ada pada ruangan 5
+    onCompleteDialog: Selamat kamu telah selesai mengerjakan semua soal dan kamu
+      telah mendapakan kelima medali jaringan.
+  - isStarted: 0
+    isCompleted: 0
+    onStartDialog: Sekarang kamu hanya perlu mengerjakan Evaluasi
+    onProgressDialog: Ayo kerjakan Evaluasi
+    onCompleteDialog: Selamat kamu telah selesai mengerjakan keseluruhan soal dan
+      evaluasi.

@@ -11,7 +11,9 @@ public class BookController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(_sceneName);
+            SceneManager.LoadScene(_sceneName, LoadSceneMode.Additive);
+            StoryManager.Instance.MainCamera.gameObject.SetActive(false);
+            Destroy(gameObject);
         }
     }
 }
