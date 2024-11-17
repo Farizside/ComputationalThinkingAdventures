@@ -10504,6 +10504,7 @@ MonoBehaviour:
   - openDoor: {fileID: 1753432652}
     closeDoor: {fileID: 1804022539}
     video: 
+  _isDialogCompleted: 1
 --- !u!4 &101985382
 Transform:
   m_ObjectHideFlags: 0
@@ -15494,7 +15495,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881127387}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.077618256, y: -0.018704556, z: 0.001456466, w: 0.9968066}
+  m_LocalRotation: {x: 0.077618256, y: -0.018704591, z: 0.0014564688, w: 0.9968066}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16827,7 +16828,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1071189777}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07761825, y: -0.018704537, z: 0.0014564642, w: 0.9968067}
+  m_LocalRotation: {x: 0.07761825, y: -0.018704608, z: 0.0014564698, w: 0.9968067}
   m_LocalPosition: {x: 14.207516, y: 3.2600002, z: 37.44893}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -18491,7 +18492,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265944649}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.04086871, y: -0.01874551, z: 0.0007668806, w: 0.9989884}
+  m_LocalRotation: {x: 0.040868703, y: -0.018745514, z: 0.00076688064, w: 0.9989884}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -23166,7 +23167,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Selamat Anda Telah Menamatkan Computational Adventure
+  m_text: Selama kamu telah bergabung di sekolah jaringan terbaik di Indonesia ya
+    Nama.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -23193,7 +23195,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.3
+  m_fontSize: 61.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -29833,7 +29835,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063504168}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00038567712, y: -0.01876119, z: -0.0000072370362, w: 0.9998239}
+  m_LocalRotation: {x: -0.00038567025, y: -0.018761188, z: -0.000007236907, w: 0.9998239}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -34435,8 +34437,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.8495369, y: 2.2074935, z: 3.6298733}
-  m_Center: {x: 0, y: 0.6037455, z: 1.3149366}
+  m_Size: {x: 1.8495369, y: 2.2074935, z: 2.158393}
+  m_Center: {x: 5.4003475e-16, y: 0.60374546, z: 0.5791974}
 --- !u!114 &5866666021059600584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34449,6 +34451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01bf08b482dc8649982a83d1b67d840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isAbletoInteract: 0
 --- !u!1 &5869553147004734032
 GameObject:
   m_ObjectHideFlags: 0

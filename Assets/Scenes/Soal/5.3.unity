@@ -813,7 +813,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000027657, y: 180.57}
+  m_AnchoredPosition: {x: 0.012052, y: 192}
   m_SizeDelta: {x: 1514.6757, y: 266.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &118629859
@@ -838,7 +838,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Kamu berhasil mendesain jaringan lab di jurusan TKJ dengan menentukan
     perangkat jaringan dan ip addres yang sesuai. Kamu berhasil menganalisis persoalan
-    dan menjawab dengan benar. \r\n\nPerangkat jaringan yang diperlukan adalah router,
+    dan menjawab dengan benar. Perangkat jaringan yang diperlukan adalah router,
     switch dan PC\r\n\nFungsi router adalah untuk menghubungkan jaringan yang berbeda,
     mengelola lalu lintas antar jaringan dan membagikan koneksi internet ke beberapa
     perangkat lain\r\n\nKemudian Kamu berhasil mencocokan ip yang tersedia pada masing-masing
@@ -871,7 +871,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.75
+  m_fontSize: 25.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3976,7 +3976,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 723970432, guid: 93c2f83f08964184fbe9cad794c2d7c9, type: 3}
+  m_Sprite: {fileID: -385793122, guid: 13974c9ba7189c640bc67bbfe9ee1a27, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

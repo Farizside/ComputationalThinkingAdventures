@@ -24,15 +24,19 @@ public class StoryManager : MonoBehaviour
 
     private PlayerController _player;
 
-    private bool _isDialogCompleted
+    [SerializeField] private bool _isDialogCompleted = true;
+
+    public bool IsDialogCompleted
     {
+        get => _isDialogCompleted;
         set
         {
+            _isDialogCompleted = value;
             if (value == true)
             {
                 OnDialogComplete();
             }
-        }
+        }  
     }
 
     [Serializable]
@@ -64,7 +68,7 @@ public class StoryManager : MonoBehaviour
     {
         dialogCanvas.SetActive(true);
         var text = story.GetCurrentDialog();
-        _isDialogCompleted = false;
+        IsDialogCompleted = false;
         StartCoroutine(DisplayDialog(text));
     }
 
@@ -79,7 +83,7 @@ public class StoryManager : MonoBehaviour
         
         yield return new WaitForSeconds(3);
 
-        _isDialogCompleted = true;
+        IsDialogCompleted = true;
     }
 
     public void OnDialogComplete()

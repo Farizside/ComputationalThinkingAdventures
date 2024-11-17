@@ -2508,7 +2508,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -246.421}
+  m_AnchoredPosition: {x: 0, y: -246.42102}
   m_SizeDelta: {x: -436.167, y: -763.331}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &805880076
@@ -2883,7 +2883,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -246.421}
+  m_AnchoredPosition: {x: 0, y: -246.42102}
   m_SizeDelta: {x: -436.167, y: -763.331}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &950083335
@@ -2939,7 +2939,7 @@ MonoBehaviour:
   _startDelay: 1
   _speed: 0.05
   _cerita: Hai teman-teman, Iyan lagi membutuhkan bantuan kalian. Dia ingin sekali
-    masuk ke sekolah IT terbaik di Indonesia.....
+    masuk ke sekolah jaringan terbaik di Indonesia.....
   _text: {fileID: 699735568}
   _buttons:
   - {fileID: 544181}
@@ -2981,7 +2981,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -246.421}
+  m_AnchoredPosition: {x: 0, y: -246.42102}
   m_SizeDelta: {x: -436.167, y: -763.331}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &990967107

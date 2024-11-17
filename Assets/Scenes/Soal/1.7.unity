@@ -466,9 +466,9 @@ MonoBehaviour:
     Pada hari itu, andi melihat buku-buku berserakan dimeja yang telah dibaca oleh
     siswa. Andi harus membereskan dan menyimpan buku-buku tersebut pada rak yang
     telah disediakan dengan secara berurutan. Tapi, andi bingung tidak mengetahui
-    bagaimana cara Menyusun buku-buku tersebut dengan benar. \r\n\nAyo bantu andi
-    untuk menyelesaikan masalah tersebut\r\n\nSimpan buku-buku yang berserakan pada
-    rak kosong yang telah disediakan.\r\n"
+    bagaimana cara Menyusun buku-buku tersebut dengan benar. \r\nAyo bantu andi untuk
+    menyelesaikan masalah tersebut\r\n\nSimpan buku-buku yang berserakan pada rak
+    kosong yang telah disediakan.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -495,7 +495,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18.25
+  m_fontSize: 19.55
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
