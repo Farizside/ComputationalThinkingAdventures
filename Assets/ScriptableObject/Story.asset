@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d8d18484907b364d8570a9b7a837200, type: 3}
   m_Name: Story
   m_EditorClassIdentifier: 
-  curStage: 5
+  curStage: 0
   stages:
   - isStarted: 0
     isCompleted: 0
