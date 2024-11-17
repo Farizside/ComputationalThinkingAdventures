@@ -7,6 +7,7 @@ public class VideoController : MonoBehaviour
 {
     public VideoPlayer vid;
     public GameObject nextButton;
+    public GameObject restartButton;
 
     void Start()
     {
@@ -16,5 +17,6 @@ public class VideoController : MonoBehaviour
     void CheckOver(VideoPlayer vp)
     {
         nextButton.SetActive(true);
+        restartButton.SetActive(true);
     }
 }

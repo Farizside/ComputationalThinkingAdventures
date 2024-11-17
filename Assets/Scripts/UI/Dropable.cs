@@ -42,17 +42,18 @@ public class Dropable : MonoBehaviour, IDropHandler
             
             if (isCable)
             {
-                gameObject.GetComponent<Image>().color = new Color(255, 255, 255, 255);
                 if (draggableObject.name == "Kabel Cross")
                 {
                     gameObject.GetComponent<Image>().sprite = cross;
                     draggableObject.parentAfterDrag = transform;
                     dropped.GetComponent<Image>().enabled = false;
+                    gameObject.GetComponent<Image>().color = new Color(255, 255, 255, 255);
                 }else if (draggableObject.name == "Kabel Straight")
                 {
                     gameObject.GetComponent<Image>().sprite = straight;
                     draggableObject.parentAfterDrag = transform;
                     dropped.GetComponent<Image>().enabled = false;
+                    gameObject.GetComponent<Image>().color = new Color(255, 255, 255, 255);
                 }
             }
             else

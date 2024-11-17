@@ -2508,8 +2508,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -436.167, y: -270.489}
+  m_AnchoredPosition: {x: 0, y: -246.421}
+  m_SizeDelta: {x: -436.167, y: -763.331}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &805880076
 MonoBehaviour:
@@ -2525,7 +2525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _startDelay: 1
   _speed: 0.05
-  _cerita: Ayo kita bantu iyan mengumpulkan semua medali agar dia bisa masuk ke sekolah
+  _cerita: Ayo kita bantu Iyan mengumpulkan semua medali agar dia bisa masuk ke sekolah
     impiannya..
   _text: {fileID: 905548127}
   _buttons:
@@ -2883,8 +2883,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -436.167, y: -270.489}
+  m_AnchoredPosition: {x: 0, y: -246.421}
+  m_SizeDelta: {x: -436.167, y: -763.331}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &950083335
 MonoBehaviour:
@@ -2981,8 +2981,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -436.167, y: -270.489}
+  m_AnchoredPosition: {x: 0, y: -246.421}
+  m_SizeDelta: {x: -436.167, y: -763.331}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &990967107
 MonoBehaviour:
@@ -5005,8 +5005,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -250.57}
-  m_SizeDelta: {x: 0, y: -501.138}
+  m_AnchoredPosition: {x: 0, y: -0.0007324219}
+  m_SizeDelta: {x: 0, y: 0.0014648}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2144579934
 MonoBehaviour:

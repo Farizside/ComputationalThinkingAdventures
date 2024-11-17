@@ -28,7 +28,7 @@ MonoBehaviour:
     - text: Tree
       isTrue: 0
   - text: Kabel yang digunakan pada topologi star yang digunakan untuk menghubungkan
-      pc ke switch adalah (TS)
+      pc ke switch adalah
     jawaban:
     - text: Coaxial
       isTrue: 0

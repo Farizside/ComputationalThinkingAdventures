@@ -40,7 +40,7 @@ public class SortBuku : MonoBehaviour
                 var answer = _slot.transform.GetChild(0);
                 _answersColumn1.Add(answer.name);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 _answersColumn1.Add("null");
                 nullCount--;
@@ -54,7 +54,7 @@ public class SortBuku : MonoBehaviour
                 var answer = _slot.transform.GetChild(0);
                 _answersColumn2.Add(answer.name);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 _answersColumn2.Add("null");
                 nullCount--;
@@ -68,7 +68,7 @@ public class SortBuku : MonoBehaviour
                 var answer = _slot.transform.GetChild(0);
                 _answersColumn3.Add(answer.name);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 _answersColumn3.Add("null");
                 nullCount--;

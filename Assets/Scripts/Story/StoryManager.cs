@@ -99,7 +99,7 @@ public class StoryManager : MonoBehaviour
             {
                 _player.isAbleToMove = false;
                 SceneManager.LoadScene(objectStages[story.curStage].video, LoadSceneMode.Additive);
-                objectStages[story.curStage].video = null;
+                objectStages[story.curStage].video = "";
                 MainCamera.gameObject.SetActive(false);
             }
         }
@@ -111,13 +111,14 @@ public class StoryManager : MonoBehaviour
                 medalImages[story.curStage].sprite = medalImage;
             }
 
-            if (story.curStage <= 5)
+            if (story.curStage < 5)
             {
                 story.curStage++;
             }
             else
             {
                 finishPanel.SetActive(true);
+                _player.isAbleToMove = false;
             }
             
         }

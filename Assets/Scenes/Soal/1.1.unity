@@ -1270,6 +1270,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &309548529
 GameObject:
@@ -1399,6 +1402,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &325362258
 MonoBehaviour:
@@ -1864,6 +1870,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!1 &419967647
 GameObject:
@@ -2056,6 +2065,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &463235453
 GameObject:
@@ -2248,6 +2260,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &622556203
 GameObject:
@@ -2357,74 +2372,6 @@ MonoBehaviour:
   m_Spacing: {x: 25, y: 25}
   m_Constraint: 0
   m_ConstraintCount: 2
---- !u!1 &650290357
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 650290360}
-  - component: {fileID: 650290359}
-  - component: {fileID: 650290358}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &650290358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650290357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &650290359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650290357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &650290360
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650290357}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &658617061
 GameObject:
   m_ObjectHideFlags: 0
@@ -2836,6 +2783,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &698540224
 MonoBehaviour:
@@ -3240,6 +3190,9 @@ MonoBehaviour:
   - Pengurangan Gaji
   - Terlambat
   _answers: []
+  _isEssay: 0
+  _essayAnswers: []
+  _keyEssayAnswers: []
   _benarPanel: {fileID: 309548529}
   _salahPanel: {fileID: 1464321172}
   _kosongPanel: {fileID: 344698922}
@@ -3465,6 +3418,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &1052141909
 GameObject:
@@ -3517,6 +3473,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1052141912
 MonoBehaviour:
@@ -4052,6 +4011,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1429425626
 MonoBehaviour:
@@ -4166,6 +4128,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1458063137
 MonoBehaviour:
@@ -4660,6 +4625,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &1636822938
 GameObject:
@@ -4775,6 +4743,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &1741623470
 GameObject:
@@ -5080,6 +5051,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1761014068
 MonoBehaviour:
@@ -5194,6 +5168,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 1
 --- !u!114 &1778893746
 MonoBehaviour:
@@ -5661,6 +5638,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1 &1966179153
 GameObject:
@@ -5987,6 +5967,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9727083056a7f704699aa4beaa8b0a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isCable: 0
+  cross: {fileID: 0}
+  straight: {fileID: 0}
   type: 0
 --- !u!1001 &7961712382531490540
 PrefabInstance:
@@ -6096,4 +6079,3 @@ SceneRoots:
   - {fileID: 709014280}
   - {fileID: 658617063}
   - {fileID: 1741623474}
-  - {fileID: 650290360}

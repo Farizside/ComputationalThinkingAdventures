@@ -9,6 +9,5 @@ public static class PlayerData
     public static void InputName(string name)
     {
         Name = name;
-        Debug.Log(Name);
     }
 }

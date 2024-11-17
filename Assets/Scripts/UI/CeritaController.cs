@@ -14,8 +14,11 @@ public class CeritaController : MonoBehaviour
     [SerializeField] private TMP_Text _text;
     [SerializeField] [CanBeNull] private Button[] _buttons;
 
+    private string _displayCerita;
+
     private void Start()
     {
+        _cerita = _cerita.Replace("Iyan", PlayerData.Name);
         _text.text = null;
         StartCoroutine(StartCerita());
     }

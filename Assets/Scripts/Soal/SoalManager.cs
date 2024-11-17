@@ -43,7 +43,7 @@ public class SoalManager : MonoBehaviour
                 var answer = _slot.transform.GetChild(0);
                 _answers.Add(answer.name);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 if (!_slot.isCable)
                 {

@@ -40,6 +40,7 @@ public class SceneManagement: MonoBehaviour
         SceneManager.UnloadSceneAsync(SceneManager.GetSceneAt(SceneManager.sceneCount-1));
         FindObjectOfType<PlayerController>().isAbleToMove = true;
         StoryManager.Instance.story.GetCurrentStage().isCompleted = true;
+        StoryManager.Instance.MainCamera.gameObject.SetActive(true);
     }
 
     public void FinishGame()

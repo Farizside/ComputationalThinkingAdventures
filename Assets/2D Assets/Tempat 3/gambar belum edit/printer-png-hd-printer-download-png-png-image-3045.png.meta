@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: printer-png-hd-printer-download-png-png-image-3045_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 77
+        width: 2887
+        height: 2305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87193e9b29857af4b93006ba870a3c73
+      internalID: 1785028413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printer-png-hd-printer-download-png-png-image-3045_1
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 2378
+        width: 83
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e6b15b60329164088a64e3b049546c
+      internalID: -10747168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printer-png-hd-printer-download-png-png-image-3045_2
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 2378
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a05a0523c386c44abe21b08991c24b
+      internalID: -868067810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printer-png-hd-printer-download-png-png-image-3045_3
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 2380
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344c5bb1448428b40ac5146e78bb4e11
+      internalID: 775502140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printer-png-hd-printer-download-png-png-image-3045_4
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 2380
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2359f63e343bb61419da882284fe6321
+      internalID: 877440924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printer-png-hd-printer-download-png-png-image-3045_5
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 2380
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ec18fb4aba8254b9d17dc79ce1b626
+      internalID: 823888868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printer-png-hd-printer-download-png-png-image-3045_6
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 2378
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953878757e4c40d45bedc79cf52366d8
+      internalID: 1137814620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: printer-png-hd-printer-download-png-png-image-3045_7
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 2378
+        width: 83
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fcc27ba52541445a6b32cac9f1a940
+      internalID: 278026050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +274,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      printer-png-hd-printer-download-png-png-image-3045_0: 1785028413
+      printer-png-hd-printer-download-png-png-image-3045_1: -10747168
+      printer-png-hd-printer-download-png-png-image-3045_2: -868067810
+      printer-png-hd-printer-download-png-png-image-3045_3: 775502140
+      printer-png-hd-printer-download-png-png-image-3045_4: 877440924
+      printer-png-hd-printer-download-png-png-image-3045_5: 823888868
+      printer-png-hd-printer-download-png-png-image-3045_6: 1137814620
+      printer-png-hd-printer-download-png-png-image-3045_7: 278026050
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
