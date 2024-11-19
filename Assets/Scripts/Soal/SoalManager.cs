@@ -91,6 +91,7 @@ public class SoalManager : MonoBehaviour
         if (nullCount == 0)
         {
             _kosongPanel.SetActive(true);
+            AudioManager.Instance.PlaySFX("Wrong");
             return;
         }
 
@@ -99,6 +100,7 @@ public class SoalManager : MonoBehaviour
             if (nullCount > 0 && nullCount != _keyAnswers.Count + _keyEssayAnswers.Count)
             {
                 _belumLengkapPanel.SetActive(true);
+                AudioManager.Instance.PlaySFX("Wrong");
                 return;
             }
         }
@@ -107,6 +109,7 @@ public class SoalManager : MonoBehaviour
             if (nullCount > 0 && nullCount != _keyAnswers.Count)
             {
                 _belumLengkapPanel.SetActive(true);
+                AudioManager.Instance.PlaySFX("Wrong");
                 return;
             }
         }
@@ -116,10 +119,12 @@ public class SoalManager : MonoBehaviour
             if (rightCount < _keyAnswers.Count + _keyEssayAnswers.Count)
             {
                 _salahPanel.SetActive(true);
+                AudioManager.Instance.PlaySFX("Wrong");
             }
             else
             {
                 _benarPanel.SetActive(true);
+                AudioManager.Instance.PlaySFX("Correct");
             }
         }
         else
@@ -127,10 +132,12 @@ public class SoalManager : MonoBehaviour
             if (rightCount < _keyAnswers.Count)
             {
                 _salahPanel.SetActive(true);
+                AudioManager.Instance.PlaySFX("Wrong");
             }
             else
             {
                 _benarPanel.SetActive(true);
+                AudioManager.Instance.PlaySFX("Correct");
             }
         }
     }

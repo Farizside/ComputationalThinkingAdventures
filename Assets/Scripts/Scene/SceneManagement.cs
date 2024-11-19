@@ -19,6 +19,7 @@ public class SceneManagement: MonoBehaviour
     {
         SceneManager.UnloadSceneAsync(SceneManager.GetSceneAt(SceneManager.sceneCount-1));
         SceneManager.LoadScene(scene, LoadSceneMode.Additive);
+        AudioManager.Instance.PlaySFX("Button");
     }
 
     public void RestartScene()
@@ -26,6 +27,7 @@ public class SceneManagement: MonoBehaviour
         var last = SceneManager.GetSceneAt(SceneManager.sceneCount - 1).name;
         SceneManager.UnloadSceneAsync(SceneManager.GetSceneAt(SceneManager.sceneCount-1));
         SceneManager.LoadScene(last, LoadSceneMode.Additive);
+        AudioManager.Instance.PlaySFX("Button");
     }
 
     public void UnloadLastScene()
@@ -33,6 +35,8 @@ public class SceneManagement: MonoBehaviour
         SceneManager.UnloadSceneAsync(SceneManager.GetSceneAt(SceneManager.sceneCount-1));
         FindObjectOfType<PlayerController>().isAbleToMove = true;
         StoryManager.Instance.MainCamera.gameObject.SetActive(true);
+        AudioManager.Instance._bgmSource.mute = false;
+        AudioManager.Instance.PlaySFX("Button");
     }
 
     public void OnFinishTask()
@@ -41,10 +45,13 @@ public class SceneManagement: MonoBehaviour
         FindObjectOfType<PlayerController>().isAbleToMove = true;
         StoryManager.Instance.story.GetCurrentStage().isCompleted = true;
         StoryManager.Instance.MainCamera.gameObject.SetActive(true);
+        AudioManager.Instance.PlayBGM("Inside");
+        AudioManager.Instance.PlaySFX("Button");
     }
 
     public void FinishGame()
     {
+        AudioManager.Instance.PlaySFX("Button");
         SceneManager.LoadScene("MainMenu");
     }
 }

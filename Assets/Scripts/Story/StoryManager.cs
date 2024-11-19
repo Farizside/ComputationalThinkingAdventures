@@ -17,6 +17,7 @@ public class StoryManager : MonoBehaviour
     [SerializeField] private Sprite medalImage;
     [SerializeField] private float speedText;
     [SerializeField] private GameObject finishPanel;
+    [SerializeField] private Button _videoButton;
 
     public ObjectStage[] objectStages;
 
@@ -62,6 +63,7 @@ public class StoryManager : MonoBehaviour
     private void Start()
     {
         _player = FindObjectOfType<PlayerController>();
+        AudioManager.Instance.PlayBGM("Outside");
     }
 
     public void StartDialog()
@@ -74,16 +76,27 @@ public class StoryManager : MonoBehaviour
 
     IEnumerator DisplayDialog(string text)
     {
+        var curStage = story.GetCurrentStage();
+        
         dialogText.text = "";
         foreach (var c in text)
         {
             dialogText.text += c;
             yield return new WaitForSeconds(speedText);
         }
-        
-        yield return new WaitForSeconds(3);
 
-        IsDialogCompleted = true;
+        if (curStage.isStarted && objectStages[story.curStage].video != "")
+        {
+            _videoButton.gameObject.SetActive(true);
+            _videoButton.onClick.AddListener(OnDialogComplete);
+            _videoButton.onClick.AddListener(ButtonSFX);
+        }
+        else
+        {
+            yield return new WaitForSeconds(3);
+            
+            IsDialogCompleted = true;
+        }
     }
 
     public void OnDialogComplete()
@@ -102,9 +115,11 @@ public class StoryManager : MonoBehaviour
             if (objectStages[story.curStage].video != "")
             {
                 _player.isAbleToMove = false;
+                _videoButton.gameObject.SetActive(false);
                 SceneManager.LoadScene(objectStages[story.curStage].video, LoadSceneMode.Additive);
                 objectStages[story.curStage].video = "";
                 MainCamera.gameObject.SetActive(false);
+                AudioManager.Instance._bgmSource.mute = true;
             }
         }
         
@@ -113,6 +128,14 @@ public class StoryManager : MonoBehaviour
             if (story.curStage <= 4)
             {
                 medalImages[story.curStage].sprite = medalImage;
+                if (story.curStage == 4)
+                {
+                    AudioManager.Instance.PlayBGM("Evaluate");
+                }
+                else
+                {
+                    AudioManager.Instance.PlayBGM("Medal");
+                }
             }
 
             if (story.curStage < 5)
@@ -128,5 +151,10 @@ public class StoryManager : MonoBehaviour
         }
         
         StopAllCoroutines();
+    }
+
+    public void ButtonSFX()
+    {
+        AudioManager.Instance.PlaySFX("Button");
     }
 }

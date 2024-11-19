@@ -56,22 +56,26 @@ public class EssayManager : MonoBehaviour
         if (nullCount == 0)
         {
             _kosongPanel.SetActive(true);
+            AudioManager.Instance.PlaySFX("Wrong");
             return;
         }
         
         if (nullCount > 0 && nullCount != _keyAnswers.Count)
         {
             _belumLengkapPanel.SetActive(true);
+            AudioManager.Instance.PlaySFX("Wrong");
             return;
         }
         
         if (rightCount < _keyAnswers.Count)
         {
             _salahPanel.SetActive(true);
+            AudioManager.Instance.PlaySFX("Wrong");
         }
         else
         {
             _benarPanel.SetActive(true);
+            AudioManager.Instance.PlaySFX("Correct");
         }
     }
 }

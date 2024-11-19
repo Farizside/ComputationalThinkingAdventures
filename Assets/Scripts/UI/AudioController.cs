@@ -25,6 +25,8 @@ public class AudioController : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     public void OnValueChanged()
     {
+        AudioManager.Instance.PlaySFX("Button");
+        AudioManager.Instance.Mute();
         if (_toggle.isOn)
         {
             _toggle.image.sprite = _onSprite;

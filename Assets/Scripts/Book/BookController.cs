@@ -30,6 +30,8 @@ public class BookController : MonoBehaviour
 
     private void OnYesClicked(string scene)
     {
+        AudioManager.Instance.PlaySFX("Button");
+        AudioManager.Instance.PlayBGM("Soal");
         _confirmPanel.SetActive(false);
         SceneManager.LoadScene(scene, LoadSceneMode.Additive);
         StoryManager.Instance.MainCamera.gameObject.SetActive(false);
@@ -38,6 +40,7 @@ public class BookController : MonoBehaviour
 
     private void OnNoClicked()
     {
+        AudioManager.Instance.PlaySFX("Button");
         _confirmPanel.SetActive(false);
     }
 }
