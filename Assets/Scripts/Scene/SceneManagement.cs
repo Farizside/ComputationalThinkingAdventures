@@ -51,6 +51,7 @@ public class SceneManagement: MonoBehaviour
 
     public void FinishGame()
     {
+        SaveSystem.SaveStory(StoryManager.Instance.story, "SaveFile.Json");
         AudioManager.Instance.PlaySFX("Button");
         SceneManager.LoadScene("MainMenu");
     }

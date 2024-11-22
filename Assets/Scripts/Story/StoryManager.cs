@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
@@ -24,6 +25,8 @@ public class StoryManager : MonoBehaviour
     public static StoryManager Instance;
 
     private PlayerController _player;
+
+    private CinemachineFreeLook _camera;
 
     [SerializeField] private bool _isDialogCompleted = true;
 
@@ -63,7 +66,9 @@ public class StoryManager : MonoBehaviour
     private void Start()
     {
         _player = FindObjectOfType<PlayerController>();
+        _camera = FindObjectOfType<CinemachineFreeLook>();
         AudioManager.Instance.PlayBGM("Outside");
+        SaveSystem.LoadStory(story, "storySave.json");
     }
 
     public void StartDialog()
@@ -88,6 +93,7 @@ public class StoryManager : MonoBehaviour
         if (curStage.isStarted && objectStages[story.curStage].video != "")
         {
             _videoButton.gameObject.SetActive(true);
+            _camera.enabled = false;
             _videoButton.onClick.AddListener(OnDialogComplete);
             _videoButton.onClick.AddListener(ButtonSFX);
         }
@@ -102,6 +108,7 @@ public class StoryManager : MonoBehaviour
     public void OnDialogComplete()
     {
         _player.isAbleToMove = true;
+        _camera.enabled = true;
         dialogCanvas.SetActive(false);
         dialogText.text = "";
 
@@ -121,6 +128,8 @@ public class StoryManager : MonoBehaviour
                 MainCamera.gameObject.SetActive(false);
                 AudioManager.Instance._bgmSource.mute = true;
             }
+            
+            SaveSystem.SaveStory(story, "SaveFile.Json");
         }
         
         if (curStage.isCompleted)

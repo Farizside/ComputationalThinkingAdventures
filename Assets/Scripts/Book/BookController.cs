@@ -15,6 +15,8 @@ public class BookController : MonoBehaviour
     [SerializeField] private TMP_Text _text;
     [SerializeField] private Button _yesButton;
     [SerializeField] private Button _noButton;
+
+    private PlayerController _player;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -25,6 +27,8 @@ public class BookController : MonoBehaviour
             _noButton.onClick.RemoveAllListeners();
             _yesButton.onClick.AddListener(() => OnYesClicked(_sceneName));
             _noButton.onClick.AddListener(OnNoClicked);
+            _player = other.GetComponent<PlayerController>();
+            _player.isAbleToMove = false;
         }
     }
 
@@ -42,5 +46,6 @@ public class BookController : MonoBehaviour
     {
         AudioManager.Instance.PlaySFX("Button");
         _confirmPanel.SetActive(false);
+        _player.isAbleToMove = true;
     }
 }
