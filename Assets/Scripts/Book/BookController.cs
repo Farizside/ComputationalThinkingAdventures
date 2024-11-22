@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -17,6 +18,14 @@ public class BookController : MonoBehaviour
     [SerializeField] private Button _noButton;
 
     private PlayerController _player;
+    
+    private CinemachineFreeLook _camera;
+
+    private void Awake()
+    {
+        _camera = FindObjectOfType<CinemachineFreeLook>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -29,6 +38,7 @@ public class BookController : MonoBehaviour
             _noButton.onClick.AddListener(OnNoClicked);
             _player = other.GetComponent<PlayerController>();
             _player.isAbleToMove = false;
+            _camera.enabled = false;
         }
     }
 
@@ -47,5 +57,6 @@ public class BookController : MonoBehaviour
         AudioManager.Instance.PlaySFX("Button");
         _confirmPanel.SetActive(false);
         _player.isAbleToMove = true;
+        _camera.enabled = true;
     }
 }

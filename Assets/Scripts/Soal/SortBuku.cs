@@ -22,6 +22,7 @@ public class SortBuku : MonoBehaviour
     public int nullCount;
     public void OnSubmit()
     {
+        AudioManager.Instance.PlaySFX("Button");
         CheckAnswers();
     }
 
@@ -78,12 +79,14 @@ public class SortBuku : MonoBehaviour
         if (nullCount == 0)
         {
             _kosongPanel.SetActive(true);
+            AudioManager.Instance.PlaySFX("Wrong");
             return;
         }
 
         if (nullCount > 0 && nullCount < _column1.Count + _column2.Count + _column3.Count)
         {
             _belumLengkapPanel.SetActive(true);
+            AudioManager.Instance.PlaySFX("Wrong");
             return;
         }
 
@@ -132,10 +135,12 @@ public class SortBuku : MonoBehaviour
         if (rightCount < 11)
         {
             _salahPanel.SetActive(true);
+            AudioManager.Instance.PlaySFX("Wrong");
         }
         else
         {
             _benarPanel.SetActive(true);
+            AudioManager.Instance.PlaySFX("Correct");
         }
     }
 }

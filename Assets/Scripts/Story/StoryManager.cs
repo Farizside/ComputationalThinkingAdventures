@@ -69,6 +69,7 @@ public class StoryManager : MonoBehaviour
         _camera = FindObjectOfType<CinemachineFreeLook>();
         AudioManager.Instance.PlayBGM("Outside");
         SaveSystem.LoadStory(story, "storySave.json");
+        OnRespawn();
     }
 
     public void StartDialog()
@@ -81,6 +82,7 @@ public class StoryManager : MonoBehaviour
 
     IEnumerator DisplayDialog(string text)
     {
+        _camera.enabled = false;
         var curStage = story.GetCurrentStage();
         
         dialogText.text = "";
@@ -90,10 +92,9 @@ public class StoryManager : MonoBehaviour
             yield return new WaitForSeconds(speedText);
         }
 
-        if (curStage.isStarted && objectStages[story.curStage].video != "")
+        if (curStage.isStarted && !curStage.isVideoPlayed)
         {
             _videoButton.gameObject.SetActive(true);
-            _camera.enabled = false;
             _videoButton.onClick.AddListener(OnDialogComplete);
             _videoButton.onClick.AddListener(ButtonSFX);
         }
@@ -119,12 +120,12 @@ public class StoryManager : MonoBehaviour
             objectStages[story.curStage].openDoor.SetActive(true);
             objectStages[story.curStage].closeDoor.SetActive(false);
 
-            if (objectStages[story.curStage].video != "")
+            if (!curStage.isVideoPlayed)
             {
                 _player.isAbleToMove = false;
                 _videoButton.gameObject.SetActive(false);
                 SceneManager.LoadScene(objectStages[story.curStage].video, LoadSceneMode.Additive);
-                objectStages[story.curStage].video = "";
+                curStage.isVideoPlayed = true;
                 MainCamera.gameObject.SetActive(false);
                 AudioManager.Instance._bgmSource.mute = true;
             }
@@ -139,11 +140,11 @@ public class StoryManager : MonoBehaviour
                 medalImages[story.curStage].sprite = medalImage;
                 if (story.curStage == 4)
                 {
-                    AudioManager.Instance.PlayBGM("Evaluate");
+                    AudioManager.Instance.PlaySFX("Evaluate");
                 }
                 else
                 {
-                    AudioManager.Instance.PlayBGM("Medal");
+                    AudioManager.Instance.PlaySFX("Medal");
                 }
             }
 
@@ -165,5 +166,17 @@ public class StoryManager : MonoBehaviour
     public void ButtonSFX()
     {
         AudioManager.Instance.PlaySFX("Button");
+    }
+
+    public void OnRespawn()
+    {
+        for (int i = 0; i < story.stages.Length; i++)
+        {
+            if (story.stages[i].isStarted)
+            {
+                objectStages[i].closeDoor.SetActive(false);
+                objectStages[i].openDoor.SetActive(true);
+            }
+        }
     }
 }

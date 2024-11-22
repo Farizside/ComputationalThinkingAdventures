@@ -1,10 +1,19 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneManagement: MonoBehaviour
 {
+    private CinemachineFreeLook _camera;
+
+    private void Awake()
+    {
+        _camera = FindObjectOfType<CinemachineFreeLook>();
+    }
+
     public void Quit()
     {
         Application.Quit();
@@ -20,6 +29,7 @@ public class SceneManagement: MonoBehaviour
         SceneManager.UnloadSceneAsync(SceneManager.GetSceneAt(SceneManager.sceneCount-1));
         SceneManager.LoadScene(scene, LoadSceneMode.Additive);
         AudioManager.Instance.PlaySFX("Button");
+        AudioManager.Instance.PlayBGM("Soal");
     }
 
     public void RestartScene()
@@ -36,6 +46,7 @@ public class SceneManagement: MonoBehaviour
         FindObjectOfType<PlayerController>().isAbleToMove = true;
         StoryManager.Instance.MainCamera.gameObject.SetActive(true);
         AudioManager.Instance._bgmSource.mute = false;
+        AudioManager.Instance.PlayBGM("Outside");
         AudioManager.Instance.PlaySFX("Button");
     }
 
@@ -45,6 +56,7 @@ public class SceneManagement: MonoBehaviour
         FindObjectOfType<PlayerController>().isAbleToMove = true;
         StoryManager.Instance.story.GetCurrentStage().isCompleted = true;
         StoryManager.Instance.MainCamera.gameObject.SetActive(true);
+        _camera.enabled = true;
         AudioManager.Instance.PlayBGM("Inside");
         AudioManager.Instance.PlaySFX("Button");
     }
@@ -53,6 +65,6 @@ public class SceneManagement: MonoBehaviour
     {
         SaveSystem.SaveStory(StoryManager.Instance.story, "SaveFile.Json");
         AudioManager.Instance.PlaySFX("Button");
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Home");
     }
 }

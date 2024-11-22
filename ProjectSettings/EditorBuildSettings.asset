@@ -84,6 +84,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Soal/5.5.unity
     guid: c08649196ec07864dacbb2399b8b906d
   - enabled: 1
+    path: Assets/Scenes/Soal/5.6.unity
+    guid: 80632501f46bdc94d957cad77d41b644
+  - enabled: 1
+    path: Assets/Scenes/Soal/5.7.unity
+    guid: d30f9c0d28ac4384c8b0e36ab225c8e4
+  - enabled: 1
     path: Assets/Scenes/Soal/Evaluasi.unity
     guid: 65ec7888976c7a64cba98a4f23f801d1
   - enabled: 1

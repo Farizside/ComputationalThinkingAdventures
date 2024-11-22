@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EssayManager : MonoBehaviour
 {
@@ -21,10 +22,12 @@ public class EssayManager : MonoBehaviour
     private void Start()
     {
         nullCount = _keyAnswers.Count;
+        _benarPanel.GetComponentInChildren<Button>().onClick.AddListener(() => AudioManager.Instance.PlaySFX("Button"));
     }
     
     public void OnSubmit()
     {
+        AudioManager.Instance.PlaySFX("Button");
         foreach (var answer in _answers)
         {
             if (answer.text == "")

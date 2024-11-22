@@ -239,8 +239,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 941745528}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 628150713}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 5
         m_Arguments:
@@ -961,8 +961,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 941745528}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 628150713}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 5
         m_Arguments:
@@ -1194,8 +1194,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 941745528}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 628150713}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 5
         m_Arguments:
@@ -1436,8 +1436,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 941745528}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 628150713}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 5
         m_Arguments:
@@ -1761,8 +1761,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 941745528}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 628150713}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 5
         m_Arguments:
@@ -1832,6 +1832,50 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &628150711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 628150712}
+  - component: {fileID: 628150713}
+  m_Layer: 0
+  m_Name: SFX Helper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &628150712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628150711}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.9211223, y: 6.948778, z: -11.531875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &628150713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628150711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef91625c14fc22b42b1fd5b0b6abc671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &672939817
 GameObject:
   m_ObjectHideFlags: 0
@@ -2195,8 +2239,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 941745528}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 628150713}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 5
         m_Arguments:
@@ -3254,8 +3298,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 941745528}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 628150713}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 5
         m_Arguments:
@@ -3420,8 +3464,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 941745528}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 628150713}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 5
         m_Arguments:
@@ -3664,8 +3708,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 941745528}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 628150713}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 5
         m_Arguments:
@@ -3894,8 +3938,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 941745528}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 628150713}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 5
         m_Arguments:
@@ -4279,8 +4323,8 @@ MonoBehaviour:
           m_StringArgument: Gameplay
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 941745528}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 628150713}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 5
         m_Arguments:
@@ -4836,8 +4880,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 941745528}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 628150713}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 5
         m_Arguments:
@@ -5185,8 +5229,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 941745528}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+      - m_Target: {fileID: 628150713}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 5
         m_Arguments:
@@ -5304,3 +5348,4 @@ SceneRoots:
   - {fileID: 1824000757}
   - {fileID: 903752203}
   - {fileID: 941745527}
+  - {fileID: 628150712}

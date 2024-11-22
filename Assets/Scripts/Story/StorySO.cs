@@ -13,6 +13,7 @@ public class StorySO : ScriptableObject
     public class Stage
     {
         public bool isStarted;
+        public bool isVideoPlayed;
         public bool isCompleted;
         public string onStartDialog;
         public string onProgressDialog;
@@ -59,6 +60,7 @@ public class StorySO : ScriptableObject
             storyData.stages.Add(new StoryData.StageData
             {
                 isStarted = stage.isStarted,
+                isVideoPlayed = stage.isVideoPlayed,
                 isCompleted = stage.isCompleted,
                 onStartDialog = stage.onStartDialog,
                 onProgressDialog = stage.onProgressDialog,
@@ -79,6 +81,7 @@ public class StorySO : ScriptableObject
             if (i < storyData.stages.Count)
             {
                 stages[i].isStarted = storyData.stages[i].isStarted;
+                stages[i].isVideoPlayed = storyData.stages[i].isVideoPlayed;
                 stages[i].isCompleted = storyData.stages[i].isCompleted;
                 stages[i].onStartDialog = storyData.stages[i].onStartDialog;
                 stages[i].onProgressDialog = storyData.stages[i].onProgressDialog;
@@ -98,6 +101,7 @@ public class StoryData
     public class StageData
     {
         public bool isStarted;
+        public bool isVideoPlayed;
         public bool isCompleted;
         public string onStartDialog;
         public string onProgressDialog;

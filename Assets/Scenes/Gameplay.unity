@@ -24601,7 +24601,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881127387}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.077618256, y: -0.018704591, z: 0.0014564688, w: 0.9968066}
+  m_LocalRotation: {x: 0.077618256, y: -0.018704556, z: 0.001456466, w: 0.9968066}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -25486,6 +25486,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1457080806}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &982830117
@@ -26510,7 +26522,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1071189777}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07761825, y: -0.018704608, z: 0.0014564698, w: 0.9968067}
+  m_LocalRotation: {x: 0.07761825, y: -0.018704537, z: 0.0014564642, w: 0.9968067}
   m_LocalPosition: {x: 14.207516, y: 3.2600002, z: 37.44893}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -32752,7 +32764,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265944649}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.040868703, y: -0.018745514, z: 0.00076688064, w: 0.9989884}
+  m_LocalRotation: {x: 0.04086871, y: -0.01874551, z: 0.0007668806, w: 0.9989884}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -36031,6 +36043,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &1457080804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1457080805}
+  - component: {fileID: 1457080806}
+  m_Layer: 0
+  m_Name: SFX Helper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1457080805
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457080804}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.9211223, y: 6.948778, z: -11.531875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1457080806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457080804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef91625c14fc22b42b1fd5b0b6abc671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1467574387
 GameObject:
   m_ObjectHideFlags: 0
@@ -55097,7 +55153,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063504168}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00038567238, y: -0.01876119, z: -0.0000072369467, w: 0.9998239}
+  m_LocalRotation: {x: -0.00038567663, y: -0.01876119, z: -0.0000072370267, w: 0.9998239}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -55197,6 +55253,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1457080806}
+        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &2088574420
@@ -65113,3 +65181,4 @@ SceneRoots:
   - {fileID: 567523015}
   - {fileID: 1987470019}
   - {fileID: 1381487819}
+  - {fileID: 1457080805}

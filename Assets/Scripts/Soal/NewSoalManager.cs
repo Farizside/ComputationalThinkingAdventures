@@ -6,7 +6,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SoalManager : MonoBehaviour
+public class NewSoalManager : MonoBehaviour
 {
     [SerializeField] private List<Dropable> _slots;
     [SerializeField] private List<string> _keyAnswers;
@@ -20,6 +20,8 @@ public class SoalManager : MonoBehaviour
     [SerializeField] private GameObject _salahPanel;
     [SerializeField] private GameObject _kosongPanel;
     [SerializeField] private GameObject _belumLengkapPanel;
+    
+    public HashSet<string> _uniqueIPs = new HashSet<string>();
 
     public int nullCount;
 
@@ -84,8 +86,9 @@ public class SoalManager : MonoBehaviour
         {
             for (int i = 0; i < _keyEssayAnswers.Count; i++)
             {
-                if (_essayAnswers[i].text.ToLower() == _keyEssayAnswers[i].ToLower())
+                if (CheckIP(_essayAnswers[i].text, _keyEssayAnswers[i]))
                 {
+                    Debug.Log(rightCount);
                     rightCount++;
                 }
             }
@@ -122,6 +125,7 @@ public class SoalManager : MonoBehaviour
             if (rightCount < _keyAnswers.Count + _keyEssayAnswers.Count)
             {
                 _salahPanel.SetActive(true);
+                Debug.Log(rightCount);
                 AudioManager.Instance.PlaySFX("Wrong");
             }
             else
@@ -143,5 +147,24 @@ public class SoalManager : MonoBehaviour
                 AudioManager.Instance.PlaySFX("Correct");
             }
         }
+    }
+
+    public bool CheckIP(string answer, string key)
+    {
+        var parts = answer.Split(".");
+        if (parts.Length != 4) return false;
+        var first = parts[0] + "." + parts[1] + "." + parts[2];
+        Debug.Log(first);
+        if (first != key) return false;
+
+        if (!int.TryParse(parts[3], out int last) || last < 2 || last > 254) return false;
+        
+        if (!_uniqueIPs.Add(answer))
+        {
+            Debug.Log($"IP {answer} sudah digunakan sebelumnya.");
+            return false;
+        }
+
+        return true;
     }
 }
