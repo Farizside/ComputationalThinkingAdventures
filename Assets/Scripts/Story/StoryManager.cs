@@ -20,6 +20,7 @@ public class StoryManager : MonoBehaviour
     [SerializeField] private GameObject finishPanel;
     [SerializeField] private Button _videoButton;
     [SerializeField] private GameObject exitPanel;
+    [SerializeField] private TMP_Text finishText;
 
     public ObjectStage[] objectStages;
 
@@ -84,6 +85,7 @@ public class StoryManager : MonoBehaviour
 
     IEnumerator DisplayDialog(string text)
     {
+        text = text.Replace("nama", PlayerData.Name);
         _camera.enabled = false;
         var curStage = story.GetCurrentStage();
         
@@ -94,7 +96,7 @@ public class StoryManager : MonoBehaviour
             yield return new WaitForSeconds(speedText);
         }
 
-        if (curStage.isStarted && !curStage.isVideoPlayed)
+        if (curStage.isStarted && !curStage.isVideoPlayed && objectStages[story.curStage].video != "")
         {
             _videoButton.gameObject.SetActive(true);
             _videoButton.onClick.AddListener(OnDialogComplete);
@@ -102,6 +104,7 @@ public class StoryManager : MonoBehaviour
         }
         else
         {
+            curStage.isVideoPlayed = true;
             yield return new WaitForSeconds(3);
             
             IsDialogCompleted = true;
@@ -157,6 +160,10 @@ public class StoryManager : MonoBehaviour
             else
             {
                 finishPanel.SetActive(true);
+                finishText.text = finishText.text.Replace("Nama", PlayerData.Name);
+                AudioManager.Instance._bgmSource.Stop();
+                AudioManager.Instance.PlaySFX("Evaluate");
+                story.finish = true;
                 _player.isAbleToMove = false;
             }
             

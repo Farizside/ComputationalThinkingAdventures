@@ -13,6 +13,10 @@ public class NewPGManager : MonoBehaviour
     [SerializeField] private GameObject _finishPanel;
     [SerializeField] private TMP_Text _scoreText;
     [SerializeField] private TMP_Text _congratText;
+    [SerializeField] private GameObject _lanjutButton;
+    [SerializeField] private GameObject _ulangiButton;
+    [SerializeField] private string _berhasilText;
+    [SerializeField] private string _gagalText;
 
     private int _score = 0;
     
@@ -38,10 +42,23 @@ public class NewPGManager : MonoBehaviour
                 _score += 10;
             }
         }
-        
+
         _finishPanel.SetActive(true);
         _scoreText.text = _score.ToString();
-        _congratText.text = _congratText.text.Replace("kamu", PlayerData.Name);
+        
+        _berhasilText = _berhasilText.Replace("kamu", PlayerData.Name);
+        _gagalText = _gagalText.Replace("kamu", PlayerData.Name);
+        
+        if (_score < 80)
+        {
+            _ulangiButton.SetActive(true);
+            _congratText.text = _gagalText;
+        }
+        else
+        {
+            _congratText.text = _berhasilText;
+            _lanjutButton.SetActive(true);
+        }
     }
 
     public void ButtonSFX()

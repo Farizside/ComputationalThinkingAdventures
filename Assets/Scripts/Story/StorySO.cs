@@ -6,7 +6,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Story")]
 public class StorySO : ScriptableObject
 {
+    public string name;
     public int curStage;
+    public bool finish;
     public Stage[] stages;
     
     [Serializable]
@@ -51,7 +53,9 @@ public class StorySO : ScriptableObject
     {
         var storyData = new StoryData
         {
+            name = name,
             curStage = curStage,
+            finish = finish,
             stages = new List<StoryData.StageData>()
         };
 
@@ -73,7 +77,9 @@ public class StorySO : ScriptableObject
     
     public void UpdateFromStoryData(StoryData storyData)
     {
+        name = storyData.name;
         curStage = storyData.curStage;
+        finish = storyData.finish;
 
         // Pastikan jumlah stage cocok
         for (int i = 0; i < stages.Length; i++)
@@ -94,7 +100,9 @@ public class StorySO : ScriptableObject
 [Serializable]
 public class StoryData
 {
+    public string name;
     public int curStage;
+    public bool finish;
     public List<StageData> stages;
 
     [Serializable]
