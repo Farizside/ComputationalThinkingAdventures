@@ -14276,23 +14276,30 @@ MonoBehaviour:
   speedText: 0.05
   finishPanel: {fileID: 923492281}
   _videoButton: {fileID: 118099967}
+  exitPanel: {fileID: 1755404406}
   objectStages:
-  - openDoor: {fileID: 844140417}
+  - book: {fileID: 1021622011}
+    openDoor: {fileID: 844140417}
     closeDoor: {fileID: 374254703}
     video: Video.1
-  - openDoor: {fileID: 23098038}
+  - book: {fileID: 859648316}
+    openDoor: {fileID: 23098038}
     closeDoor: {fileID: 304624683}
     video: Video.2
-  - openDoor: {fileID: 1182637909}
+  - book: {fileID: 617227032}
+    openDoor: {fileID: 1182637909}
     closeDoor: {fileID: 1017923112}
     video: Video.3
-  - openDoor: {fileID: 1072937256}
+  - book: {fileID: 1923561219}
+    openDoor: {fileID: 1072937256}
     closeDoor: {fileID: 1875154458}
     video: 
-  - openDoor: {fileID: 779430092}
+  - book: {fileID: 2112635004}
+    openDoor: {fileID: 779430092}
     closeDoor: {fileID: 331460372}
     video: Video.4
-  - openDoor: {fileID: 1753432652}
+  - book: {fileID: 1007334286}
+    openDoor: {fileID: 1753432652}
     closeDoor: {fileID: 1804022539}
     video: 
   _isDialogCompleted: 1
@@ -25476,28 +25483,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1755404406}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 101985381}
+        m_TargetAssemblyTypeName: StoryManager, Assembly-CSharp
+        m_MethodName: OnCancelExit
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1457080806}
-        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
-        m_MethodName: PlaySFX
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Button
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &982830117
@@ -55153,7 +55148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063504168}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00038567663, y: -0.01876119, z: -0.0000072370267, w: 0.9998239}
+  m_LocalRotation: {x: -0.00038566394, y: -0.018761199, z: -0.000007236793, w: 0.9998239}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -55243,29 +55238,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1755404406}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 101985381}
+        m_TargetAssemblyTypeName: StoryManager, Assembly-CSharp
+        m_MethodName: OnExitButton
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1457080806}
-        m_TargetAssemblyTypeName: SFXHelper, Assembly-CSharp
-        m_MethodName: PlaySFX
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Button
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2088574420
 MonoBehaviour:

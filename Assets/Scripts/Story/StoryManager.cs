@@ -19,6 +19,7 @@ public class StoryManager : MonoBehaviour
     [SerializeField] private float speedText;
     [SerializeField] private GameObject finishPanel;
     [SerializeField] private Button _videoButton;
+    [SerializeField] private GameObject exitPanel;
 
     public ObjectStage[] objectStages;
 
@@ -46,6 +47,7 @@ public class StoryManager : MonoBehaviour
     [Serializable]
     public class ObjectStage
     {
+        public GameObject book;
         public GameObject openDoor;
         public GameObject closeDoor;
         [CanBeNull] public string video;
@@ -68,7 +70,7 @@ public class StoryManager : MonoBehaviour
         _player = FindObjectOfType<PlayerController>();
         _camera = FindObjectOfType<CinemachineFreeLook>();
         AudioManager.Instance.PlayBGM("Outside");
-        SaveSystem.LoadStory(story, "storySave.json");
+        SaveSystem.LoadStory(story, "SaveFile.Json");
         OnRespawn();
     }
 
@@ -177,6 +179,32 @@ public class StoryManager : MonoBehaviour
                 objectStages[i].closeDoor.SetActive(false);
                 objectStages[i].openDoor.SetActive(true);
             }
+
+            if (story.stages[i].isCompleted)
+            {
+                objectStages[i].book.SetActive(false);
+            }
+
+            if (story.stages[i].isCompleted && story.curStage > i && i <= 4)
+            {
+                medalImages[i].sprite = medalImage;
+            }
         }
+    }
+
+    public void OnExitButton()
+    {
+        _camera.enabled = false;
+        _player.isAbleToMove = false;
+        exitPanel.SetActive(true);
+        AudioManager.Instance.PlaySFX("Button");
+    }
+
+    public void OnCancelExit()
+    {
+        _camera.enabled = true;
+        _player.isAbleToMove = true;
+        exitPanel.SetActive(false);
+        AudioManager.Instance.PlaySFX("Button");
     }
 }

@@ -11,7 +11,7 @@ public class SceneManagement: MonoBehaviour
 
     private void Awake()
     {
-        _camera = FindObjectOfType<CinemachineFreeLook>();
+        
     }
 
     public void Quit()
@@ -56,6 +56,7 @@ public class SceneManagement: MonoBehaviour
         FindObjectOfType<PlayerController>().isAbleToMove = true;
         StoryManager.Instance.story.GetCurrentStage().isCompleted = true;
         StoryManager.Instance.MainCamera.gameObject.SetActive(true);
+        _camera = FindObjectOfType<CinemachineFreeLook>();
         _camera.enabled = true;
         AudioManager.Instance.PlayBGM("Inside");
         AudioManager.Instance.PlaySFX("Button");
@@ -65,6 +66,7 @@ public class SceneManagement: MonoBehaviour
     {
         SaveSystem.SaveStory(StoryManager.Instance.story, "SaveFile.Json");
         AudioManager.Instance.PlaySFX("Button");
-        SceneManager.LoadScene("Home");
+        AudioManager.Instance.PlayBGM("Home");
+        SceneManager.LoadScene("MainMenu");
     }
 }
