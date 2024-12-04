@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     [HideInInspector] public Transform parentAfterDrag;
-    [SerializeField] private bool isDuplicatedOnDrag = false;
+    [SerializeField] public bool isDuplicatedOnDrag = false;
 
     private Image _image;
     private GameObject _duplicateObject;

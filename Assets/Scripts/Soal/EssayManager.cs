@@ -81,4 +81,14 @@ public class EssayManager : MonoBehaviour
             AudioManager.Instance.PlaySFX("Correct");
         }
     }
+
+    public void OnSkip()
+    {
+        var e = 0;
+        foreach (var answer in _answers)
+        {
+            answer.text = _keyAnswers[e];
+            e++;
+        }
+    }
 }

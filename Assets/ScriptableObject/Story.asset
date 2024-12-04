@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Story
   m_EditorClassIdentifier: 
   name: 
-  curStage: 5
-  finish: 1
+  curStage: 0
+  finish: 0
   stages:
-  - isStarted: 1
-    isVideoPlayed: 1
-    isCompleted: 1
+  - isStarted: 0
+    isVideoPlayed: 0
+    isCompleted: 0
     onStartDialog: Sebelum kamu mencari medali jaringan pada tempat pertama ini.
       Pak guru akan memberikan video pembelajaran terlebih dahulu. Supaya kamu mempunyai
       pengetahuan untuk menyelesaikan permasalahan. Siap untuk memperhatikan ??
@@ -26,9 +26,9 @@ MonoBehaviour:
     onCompleteDialog: Selamat kamu telah selesai mengerjakan permasalahan yang ada
       pada ruang 1. Sebagai hadiahnya bapak akan memberikan medali jaringan 1. Kumpulkan
       medali lainnya.
-  - isStarted: 1
-    isVideoPlayed: 1
-    isCompleted: 1
+  - isStarted: 0
+    isVideoPlayed: 0
+    isCompleted: 0
     onStartDialog: Sebelum kamu mencari medali jaringan yang kedua. Pak guru akan
       memberikan video pembelajaran terlebih dahulu. Supaya kamu mempunyai pengetahuan
       untuk menyelesaikan permasalahan. Siap untuk memperhatikan ??
@@ -36,9 +36,9 @@ MonoBehaviour:
     onCompleteDialog: Selamat kamu telah selesai mengerjakan permasalahan yang ada
       pada ruang 2. Sebagai hadiahnya bapak akan memberikan medali jaringan 2. Kumpulkan
       medali lainnya.
-  - isStarted: 1
-    isVideoPlayed: 1
-    isCompleted: 1
+  - isStarted: 0
+    isVideoPlayed: 0
+    isCompleted: 0
     onStartDialog: Sebelum kamu mencari medali jaringan yang ketiga. Pak guru akan
       memberikan video pembelajaran terlebih dahulu. Supaya kamu mempunyai pengetahuan
       untuk menyelesaikan permasalahan. Siap untuk memperhatikan ??
@@ -46,26 +46,26 @@ MonoBehaviour:
     onCompleteDialog: Selamat kamu telah selesai mengerjakan permasalahan yang ada
       pada ruang 3. Sebagai hadiahnya bapak akan memberikan medali jaringan 3. Kumpulkan
       medali lainnya.
-  - isStarted: 1
-    isVideoPlayed: 1
-    isCompleted: 1
+  - isStarted: 0
+    isVideoPlayed: 0
+    isCompleted: 0
     onStartDialog: Kamu harus menuju ruangan 4 untuk menyelesaikan permasalahan
     onProgressDialog: Kamu harus menuju ruangan 4 untuk menyelesaikan permasalahan
     onCompleteDialog: Selamat kamu telah selesai mengerjakan permasalahan yang ada
       pada ruang 4. Sebagai hadiahnya bapak akan memberikan medali jaringan 4. Kumpulkan
       medali lainnya.
-  - isStarted: 1
-    isVideoPlayed: 1
-    isCompleted: 1
+  - isStarted: 0
+    isVideoPlayed: 0
+    isCompleted: 0
     onStartDialog: Sebelum kamu mencari medali jaringan yang terakhir. Pak guru akan
       memberikan video pembelajaran terlebih dahulu. Supaya kamu mempunyai pengetahuan
       untuk menyelesaikan permasalahan. Siap untuk memperhatikan ??
     onProgressDialog: Kamu harus menuju ruangan 5 untuk menyelesaikan permasalahan
     onCompleteDialog: Selamat kamu telah menyelesaikan semua permasalahan dan kamu
       telah mendapakan kelima medali jaringan.
-  - isStarted: 1
-    isVideoPlayed: 1
-    isCompleted: 1
+  - isStarted: 0
+    isVideoPlayed: 0
+    isCompleted: 0
     onStartDialog: Sekarang kamu hanya perlu mengerjakan permasalahan pada ruang
       evaluasi
     onProgressDialog: Kamu harus menuju ruangan evaluasi untuk mengerjakan soal evaluasi

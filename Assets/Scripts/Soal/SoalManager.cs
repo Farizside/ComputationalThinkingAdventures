@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
@@ -141,6 +142,64 @@ public class SoalManager : MonoBehaviour
             {
                 _benarPanel.SetActive(true);
                 AudioManager.Instance.PlaySFX("Correct");
+            }
+        }
+    }
+
+    public void OnSkip()
+    {
+        var list = new List<Draggable>(FindObjectsByType<Draggable>(FindObjectsSortMode.None)); // Konversi ke List agar bisa dihapus
+        var i = 0;
+
+        foreach (var slot in _slots)
+        {
+            if (slot.transform.childCount == 0)
+            {
+                // Cari gameObject di list yang namanya sesuai dengan _keyAnswers[i]
+                var answer = list.FirstOrDefault(draggable => draggable.gameObject.name == _keyAnswers[i]);
+
+                if (answer != null)
+                {
+                    if (answer.isDuplicatedOnDrag)
+                    {
+                        var duplicateObject = Instantiate(answer, slot.transform);
+                        duplicateObject.name = answer.name;
+                        if (slot.isCable)
+                        {
+                            if (duplicateObject.name == "Kabel Cross")
+                            {
+                                slot.GetComponent<Image>().sprite = slot.cross;
+                                duplicateObject.gameObject.SetActive(false);
+                                slot.GetComponent<Image>().color = new Color(255, 255, 255, 255);
+                            }else if (duplicateObject.name == "Kabel Straight")
+                            {
+                                slot.GetComponent<Image>().sprite = slot.straight;
+                                duplicateObject.gameObject.SetActive(false);
+                                slot.GetComponent<Image>().color = new Color(255, 255, 255, 255);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        // Atur parent gameObject tersebut ke slot
+                        answer.transform.SetParent(slot.gameObject.transform);
+
+                        // Hapus dari list
+                        list.Remove(answer);
+                    }
+                }
+            }
+
+            i++;
+        }
+
+        if (_isEssay)
+        {
+            var e = 0;
+            foreach (var answer in _essayAnswers)
+            {
+                answer.text = _keyEssayAnswers[e];
+                e++;
             }
         }
     }
