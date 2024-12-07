@@ -480,7 +480,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kamu ditugaskan oleh kepala sekolah untuk membuat desain jarngan. Kepala
+  m_text: Kamu ditugaskan oleh kepala sekolah untuk membuat desain jaringan. Kepala
     sekolah ingin jaringan yang kamu buat itu bisa memfasilitasi kebutuhan siswa.
     Beliau ingin jaringan tersebut memiliki Tingkat keamanan yang baik, jika ada
     permasalhan jaringan mudah untuk memperbaikinya. Yang terpenting jaringannya

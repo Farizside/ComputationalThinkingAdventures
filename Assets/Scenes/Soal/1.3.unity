@@ -715,7 +715,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Kamu telah melakukan Teknik algoritma dalam computational thinking. Karena
-    kamu berhasil mensimulasikan kegiatatan atau prose pengantaran barang oleh kurir.\r\n\nTerlihat
+    kamu berhasil mensimulasikan kegiatatan atau proses pengantaran barang oleh kurir.\r\n\nTerlihat
     jelas proses awal dari pengantaran yang berawal dari Gudang expedisi hingga Kembali
     ke Gudang ekspedisi dan sebelumnya sudah mengirimkan barang kemudian tahapan
     saat proses pengiriman mulai pengecekan barang, proses pencarian alamat rumah
